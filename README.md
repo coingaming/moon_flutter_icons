@@ -18,7 +18,7 @@ class ExampleWidget extends StatelessWidget {
 ```
 ## Example
 
-View the Flutter app in the [example](https://github.com/microsoft/fluentui-system-icons/tree/main/flutter/example) directory to see all the available `FluentUISystemIcons`.
+View the demo app in the [example](https://github.com/coingaming/moon_flutter_icons/tree/main/example) directory to see all the available `MoonIcons`.
 
 ## FAQs
 
