@@ -16,6 +16,7 @@ jobs:
       - name: Fetch icons from moon-icons-base repository
         run: |
           git clone --depth 1 https://${{ secrets.AUTOMATION_PAT }}@github.com/coingaming/moon-icons-base.git temp_repo
+          mkdir -p svgs
           cp -r temp_repo/icons/* ./svgs/
           rm -rf temp_repo
   
