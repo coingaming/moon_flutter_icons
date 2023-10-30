@@ -1,0 +1,18 @@
+name: Create icon font
+
+on:
+  workflow_dispatch:
+
+jobs: 
+  create_icon_font:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+      contents: write
+      
+    steps:
+      - name: Echo Workflow name
+        shell: bash
+        run: |
+          echo "I am Workflow of Child REPO"
+          sleep 120s
