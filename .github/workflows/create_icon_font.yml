@@ -11,8 +11,17 @@ jobs:
       contents: write
       
     steps:
-      - name: Echo Workflow name
-        shell: bash
+      - uses: actions/checkout@v4
+
+      - name: Fetch icons from moon-icons-base repository
         run: |
-          echo "I am Workflow of Child REPO"
-          sleep 120s
+          git clone --depth 1 https://github.com/coingaming/moon-icons-base.git temp_repo
+          cp -r temp_repo/icons/* ./svgs/
+          rm -rf temp_repo
+  
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: 'feat: Update icon font'
+          title: 'feat: Update icon font'
+          branch: update-icon-font
