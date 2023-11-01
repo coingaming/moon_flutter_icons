@@ -60,7 +60,7 @@ jobs:
         run: npx svgo -f svgs -r -o svgs
 
       - name: Create icon font
-        run: npx fantasticon --name MoonIcons
+        run: npx fantasticon
 
       - name: Remove svgs folder
         run: rm -rf svgs
