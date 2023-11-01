@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 21
+
       - name: Fetch icons from moon-icons-base repository
         run: |
           git clone --depth 1 https://${{ secrets.AUTOMATION_PAT }}@github.com/coingaming/moon-icons-base.git temp_repo
@@ -53,9 +57,7 @@ jobs:
           done
 
       - name: Optimise SVGs
-        uses: ericcornelissen/svgo-action@v4
-        with:
-          repo-token: ${{ secrets.AUTOMATION_PAT }}
+        run: npx svgo -f svgs -r -o svgs
   
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
