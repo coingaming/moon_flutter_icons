@@ -58,6 +58,12 @@ jobs:
 
       - name: Optimise SVGs
         run: npx svgo -f svgs -r -o svgs
+
+      - name: Create icon font
+        run: npx fantasticon
+
+      - name: Remove svgs folder
+        run: rm -rf svgs
   
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
