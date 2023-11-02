@@ -14,18 +14,17 @@ for local development set in the .env file.
 Fetch icons from moon-icons-base repository
 
 ```sh
-# Set PAT for local environment
 export $(egrep -v '^#' .env | xargs)
 
-# Clone the moon-icons-base repository to get the unmodified icon SVGs
 git clone --depth 1 https://$PAT@github.com/coingaming/moon-icons-base.git temp_repo
 mkdir -p svgs
 cp -r temp_repo/icons/* ./svgs/
 rm -rf temp_repo
+```
 
-ls -la ./svgs/
+Rename icons to Flutter format
 
-# Rename icons to Flutter format
+```sh
 for file in svgs/*.svg; do
     base=$(basename "$file" .svg)
 
@@ -36,15 +35,21 @@ for file in svgs/*.svg; do
     
     mv "$file" "svgs/$new_name"
 done
+```
 
-# Create _16 and _24 suffix copies for each icon
+Create _16 and _24 suffix copies for each icon
+
+```sh
 for file in svgs/*_32.svg; do
     base=$(basename "$file" .svg)
     cp "$file" "svgs/${base/_32/_16}.svg"
     cp "$file" "svgs/${base/_32/_24}.svg"
 done
+```
 
-# Modify properties of SVGs
+Modify properties of SVGs
+
+```sh
 for file in svgs/*.svg; do
     sed -i 's|/>| stroke-width="1.5px" vector-effect="non-scaling-stroke"/>|' "$file"
               
@@ -53,16 +58,28 @@ for file in svgs/*.svg; do
     sed -i "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
     sed -i "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
 done
+```
 
-# Convert strokes to fills
+Convert strokes to fills
+
+```sh
 npx oslllo-svg-fixer -s svgs -d svgs
+```
 
-# Optimise SVGs
+Optimise SVGs
+
+```sh
 npx svgo -f svgs -r -o svgs
+```
 
-# Create icon font
+Create icon font
+
+```sh
 npx fantasticon
+```
 
-# Cleanup by removing svgs folder
+Cleanup by removing svgs folder
+
+```sh
 rm -rf svgs
 ```
