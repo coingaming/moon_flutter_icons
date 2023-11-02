@@ -18,7 +18,7 @@ export $(egrep -v '^#' .env | xargs)
 
 git clone --depth 1 https://$PAT@github.com/coingaming/moon-icons-base.git temp_repo
 mkdir -p svgs
-cp -r temp_repo/icons/* ./svgs/
+cp -r temp_repo/icons/* ./importer/svgs/
 rm -rf temp_repo
 ```
 
