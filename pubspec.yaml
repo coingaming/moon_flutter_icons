@@ -14,4 +14,4 @@ flutter:
   fonts:
     - family: MoonIcons
       fonts:
-        - asset: fonts/MoonIcons.ttf
+        - asset: lib/fonts/MoonIcons.ttf

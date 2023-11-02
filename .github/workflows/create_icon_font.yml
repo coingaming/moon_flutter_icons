@@ -17,53 +17,13 @@ jobs:
         with:
           node-version: 21
 
-      - name: Fetch icons from moon-icons-base repository
-        run: |
-          git clone --depth 1 https://${{ secrets.AUTOMATION_PAT }}@github.com/coingaming/moon-icons-base.git temp_repo
-          mkdir -p svgs
-          cp -r temp_repo/icons/* ./svgs/
-          rm -rf temp_repo
-
-      - name: Rename icons to Flutter format
-        run: |
-          for file in svgs/*.svg; do
-            base=$(basename "$file" .svg)
-
-            new_name=$(echo "$base" | 
-                        awk -F, '{print $1}' | 
-                        tr '[:upper:]' '[:lower:]' |
-                        tr '=-' '__')_32.svg
-    
-            mv "$file" "svgs/$new_name"
-          done
-
-      - name: Create _16 and _24 suffix copies for each icon
-        run: |
-          for file in svgs/*_32.svg; do
-            base=$(basename "$file" .svg)
-            cp "$file" "svgs/${base/_32/_16}.svg"
-            cp "$file" "svgs/${base/_32/_24}.svg"
-          done
-
-      - name: Modify SVG content
-        run: |
-          for file in svgs/*.svg; do
-            sed -i 's|/>| stroke-width="1.5px" vector-effect="non-scaling-stroke"/>|' "$file"
-              
-            size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
-    
-            sed -i "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
-            sed -i "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
-          done
-
-      - name: Optimise SVGs
-        run: npx svgo -f svgs -r -o svgs
-
-      - name: Create icon font
-        run: npx fantasticon
-
-      - name: Remove svgs folder
-        run: rm -rf svgs
+      - name: Install Dependencies
+        run: npm i
+        working-directory: ./importer
+  
+      - name: Convert icons to font
+        run: npm run create-icon-font
+        working-directory: ./importer
   
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
