@@ -33,7 +33,7 @@ done
 # Modify properties of SVGs
 for file in svgs/*.svg; do
     sed -i 's|/>| stroke-width="1.5px" vector-effect="non-scaling-stroke"/>|' "$file"
-              
+
     size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
     
     sed -i "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
@@ -41,10 +41,10 @@ for file in svgs/*.svg; do
 done
 
 # Optimise the SVGs
-npx svgo -f svgs -r -o svgs
+npx svgo -f svgs -r -o svgs --config svgo_config.yml
 
 # Convert strokes to fills
-npx oslllo-svg-fixer -s svgs -d svgs
+#npx oslllo-svg-fixer -s svgs -d svgs 
 
 # Create icon font
 npx fantasticon
