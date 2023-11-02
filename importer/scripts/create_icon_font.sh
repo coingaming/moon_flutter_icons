@@ -40,11 +40,11 @@ for file in svgs/*.svg; do
     sed -i "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
 done
 
-# Convert strokes to fills
-npx oslllo-svg-fixer -s svgs -d svgs
-
 # Optimise the SVGs
 npx svgo -f svgs -r -o svgs
+
+# Convert strokes to fills
+npx oslllo-svg-fixer -s svgs -d svgs
 
 # Create icon font
 npx fantasticon
