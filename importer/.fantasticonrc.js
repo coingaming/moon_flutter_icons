@@ -1,8 +1,8 @@
 module.exports = {
   name: "MoonIcons",
   inputDir: "./svgs",
-  outputDir: "./fonts",
+  outputDir: "../lib/fonts",
   fontTypes: ["ttf"],
   assetTypes: ["json"],
-  fontsUrl: "/fonts",
+  fontsUrl: "lib/fonts",
 };

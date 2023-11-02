@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "description": "Processes Moon Icons SVGs to icon font and dart types",
   "scripts": {
-    "create-icon-font": "npx zx ./scripts/create-icon-font.md"
+    "create-icon-font": "./scripts/create_icon_font.sh"
   },
   "devDependencies": {
     "@figma-export/cli": "^4.7.0",
