@@ -8,12 +8,15 @@ We use the [figma-export cli](https://github.com/marcomontalbano/figma-export) t
 SVG files directly from Figma. The configuration for this process is located in
 `.figmaexportrc.js`.
 
-For this process to work the AUTOMATION_PAT must be set in GitHub secrets.
+For this process to work a PAT env variable value must be fetched from GitHub secrets or 
+for local development set in the .env file.
 
 Fetch icons from moon-icons-base repository
 
 ```sh
-git clone --depth 1 https://$AUTOMATION_PAT@github.com/coingaming/moon-icons-base.git temp_repo
+export $(egrep -v '^#' .env | xargs)
+
+git clone --depth 1 https://$PAT@github.com/coingaming/moon-icons-base.git temp_repo
 mkdir -p svgs
 cp -r temp_repo/icons/* ./svgs/
 rm -rf temp_repo

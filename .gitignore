@@ -29,8 +29,8 @@ migrate_working_dir/
 .packages
 build/
 
+# Ignore node_modules and other temp importer local files
+importer/.env
 importer/node_modules
 importer/npm-debug.log
-
-# Ignore temporary script files
 importer/scripts/*.md.mjs
