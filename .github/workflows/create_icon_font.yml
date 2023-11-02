@@ -16,6 +16,10 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 21
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: ./importer
   
       - name: Convert icons to font
         run: npm run create-icon-font
