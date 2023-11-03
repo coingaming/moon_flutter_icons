@@ -30,24 +30,59 @@ for file in svgs/*_32.svg; do
     cp "$file" "svgs/${base/_32/_24}.svg"
 done
 
-# Modify properties of SVGs
-for file in svgs/*.svg; do
-    sed -i 's|/>| stroke-width="1.5px" vector-effect="non-scaling-stroke"/>|' "$file"
+# Optimise the SVGs
+npx svgo -f svgs -r -o svgs
 
+# Modify properties of SVGs
+for file in svgs/*_32.svg; do
+    sed -i.bak 's|/>| stroke-width="1.5px"/>|' "$file"
+    
     size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
     
-    sed -i "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
-    sed -i "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
+    sed -i.bak "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
+    sed -i.bak "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
+
+    rm "$file.bak"
 done
 
-# Optimise the SVGs
-npx svgo -f svgs -r -o svgs --config svgo_config.yml
+for file in svgs/*_24.svg; do
+    sed -i.bak 's|/>| stroke-width="2.25px"/>|' "$file"
+    
+    size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
+    
+    sed -i.bak "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
+    sed -i.bak "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
+
+    rm "$file.bak"
+done
+
+for file in svgs/*_16.svg; do
+    sed -i.bak 's|/>| stroke-width="3px"/>|' "$file"
+    
+    size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
+    
+    sed -i.bak "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
+    sed -i.bak "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
+
+    rm "$file.bak"
+done
 
 # Convert strokes to fills
-#npx oslllo-svg-fixer -s svgs -d svgs 
+npx oslllo-svg-fixer -s svgs -d svgs --tr 600
+
+# Remove viewBox attribute from SVGs before converting to font
+for file in svgs/*.svg; do
+    sed -i.bak 's/viewBox="[^"]*"//g' "$file"
+    rm "$file.bak"
+done
+
+# Remove previous icon font and config
+TARGET_DIR="$(dirname "$0")/../../lib/fonts"
+rm -f "$TARGET_DIR/MoonIcons.json"
+rm -f "$TARGET_DIR/MoonIcons.ttf"
 
 # Create icon font
 npx fantasticon
 
 # Cleanup by removing svgs folder
-rm -rf svgs
+#rm -rf svgs
