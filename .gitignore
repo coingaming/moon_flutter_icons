@@ -34,3 +34,5 @@ importer/.env
 importer/node_modules
 importer/npm-debug.log
 importer/scripts/*.md.mjs
+importer/svgs
+importer/fonts

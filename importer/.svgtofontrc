@@ -1,0 +1,15 @@
+{
+  "fontName": "MoonIcons",
+  "emptyDist": true,
+  "outSVGPath": false,
+  "outSVGReact": false,
+  "generateInfoData": false,
+  "website": false,
+  "css": {
+    "include": "\\.css$"
+  },
+  "svgicons2svgfont": {
+    "fontHeight": 1000,
+    "normalize": true
+  }
+}

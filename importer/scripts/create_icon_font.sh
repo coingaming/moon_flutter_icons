@@ -67,11 +67,14 @@ for file in svgs/*.svg; do
 done
 
 # Remove previous icon font and config.
-TARGET_DIR="$(dirname "$0")/../../lib/fonts"
-rm -f "$TARGET_DIR/MoonIcons.json" "$TARGET_DIR/MoonIcons.ttf"
+#TARGET_DIR="$(dirname "$0")/../../lib/fonts"
+#rm -f "$TARGET_DIR/MoonIcons.json" "$TARGET_DIR/MoonIcons.ttf"
 
 # Create icon font.
-npx fantasticon
+npx svgtofont -s svgs/ -o fonts/
+
+# Move the created font to correct directory.
+cp "./fonts/MoonIcons.ttf" "../lib/fonts/MoonIcons.ttf"
 
 # Remove the SVGs folder
-# rm -rf svgs
+rm -rf svgs

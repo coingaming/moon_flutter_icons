@@ -4,14 +4,12 @@
   "version": "0.0.1",
   "description": "Processes Moon Icons SVGs to icon font and dart types",
   "scripts": {
-    "create-icon-font": "./scripts/create_icon_font.sh"
+    "create-icon-font": "./scripts/create_icon_font.sh",
+    "convert-css-to-dart": "node ./scripts/css_to_dart.js ./fonts/MoonIcons.css ../lib/src/moonicons.dart"
   },
   "devDependencies": {
-    "@figma-export/cli": "^4.7.0",
-    "@figma-export/output-components-as-svg": "^4.7.0",
-    "fantasticon": "^2.0.0",
     "oslllo-svg-fixer": "^3.0.0",
     "svgo":"^3.0.2",
-    "zx": "^7.2.3"
+    "svgtofont": "^4.0.0"
   }
 }
