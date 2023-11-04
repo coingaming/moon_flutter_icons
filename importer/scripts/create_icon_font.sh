@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# When using local environment get the PAT variable from .env file. With GitHub Actions 
+# When using local environment get the PAT variable from .env file. The GitHub Action 
 # will use the one from the workflow environment by default.
 export $(egrep -v '^#' .env | xargs)
 
@@ -10,7 +10,7 @@ mkdir -p svgs
 cp -r temp_repo/icons/* ./svgs/
 rm -rf temp_repo
 
-# Rename icons to Flutter format
+# Rename icons to the format appropriate for Flutter.
 for file in svgs/*.svg; do
     base=$(basename "$file" .svg)
 
@@ -22,67 +22,56 @@ for file in svgs/*.svg; do
     mv "$file" "svgs/$new_name"
 done
 
-# Create _16 and _24 suffix copies for each icon
+# Create _16 and _24 suffix copies for each icon.
 for file in svgs/*_32.svg; do
     base=$(basename "$file" .svg)
-
-    cp "$file" "svgs/${base/_32/_16}.svg"
-    cp "$file" "svgs/${base/_32/_24}.svg"
+    for suffix in 16 24; do
+        cp "$file" "svgs/${base/_32/_${suffix}}.svg"
+    done
 done
 
-# Optimise the SVGs
+# Optimise the SVGs.
 npx svgo -f svgs -r -o svgs
 
-# Modify properties of SVGs
-for file in svgs/*_32.svg; do
-    sed -i.bak 's|/>| stroke-width="1.5px"/>|' "$file"
-    
-    size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
-    
-    sed -i.bak "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
-    sed -i.bak "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
+# Modify SVG width and height to 1000px.
+for file in svgs/*.svg; do
+    sed -i.bak -e 's/width="[^"]*"/width="1000px"/g' -e 's/height="[^"]*"/height="1000px"/g' "$file" && rm "$file.bak"
+done
 
-    rm "$file.bak"
+# Add relevant stroke-width to every path.
+modify_svg_properties() {
+    local file=$1
+    local stroke_width=$2
+
+    awk -v sw="$stroke_width" '{ gsub(/<path/, "<path stroke-width=\"" sw "\""); print }' "$file" > "$file.tmp" && mv "$file.tmp" "$file"   
+}
+
+for file in svgs/*_32.svg; do
+    modify_svg_properties "$file" "1.5px"
 done
 
 for file in svgs/*_24.svg; do
-    sed -i.bak 's|/>| stroke-width="2.25px"/>|' "$file"
-    
-    size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
-    
-    sed -i.bak "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
-    sed -i.bak "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
-
-    rm "$file.bak"
+    modify_svg_properties "$file" "1.25px"
 done
 
 for file in svgs/*_16.svg; do
-    sed -i.bak 's|/>| stroke-width="3px"/>|' "$file"
-    
-    size=$(echo "$file" | grep -o '_[0-9]*\.svg' | sed 's/[^0-9]*//g')
-    
-    sed -i.bak "s/width=\"[0-9]*\"/width=\"${size}\"/g" "$file"
-    sed -i.bak "s/height=\"[0-9]*\"/height=\"${size}\"/g" "$file"
-
-    rm "$file.bak"
+    modify_svg_properties "$file" "1px"
 done
 
-# Convert strokes to fills
+# Convert strokes to fills.
 npx oslllo-svg-fixer -s svgs -d svgs --tr 600
 
-# Remove viewBox attribute from SVGs before converting to font
+# Remove viewBox attribute from SVGs before converting to font.
 for file in svgs/*.svg; do
-    sed -i.bak 's/viewBox="[^"]*"//g' "$file"
-    rm "$file.bak"
+    sed -i.bak 's/viewBox="[^"]*"//g' "$file" && rm "$file.bak"
 done
 
-# Remove previous icon font and config
+# Remove previous icon font and config.
 TARGET_DIR="$(dirname "$0")/../../lib/fonts"
-rm -f "$TARGET_DIR/MoonIcons.json"
-rm -f "$TARGET_DIR/MoonIcons.ttf"
+rm -f "$TARGET_DIR/MoonIcons.json" "$TARGET_DIR/MoonIcons.ttf"
 
-# Create icon font
+# Create icon font.
 npx fantasticon
 
-# Cleanup by removing svgs folder
-#rm -rf svgs
+# Remove the SVGs folder
+# rm -rf svgs
