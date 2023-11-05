@@ -22,6 +22,10 @@ jobs:
         working-directory: ./importer
         env:
           PAT: ${{ secrets.AUTOMATION_PAT }}
+
+      - name: Generate Dart classes
+        run: npm run convert-css-to-dart
+        working-directory: ./importer
   
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
