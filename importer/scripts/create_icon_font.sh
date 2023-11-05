@@ -16,6 +16,8 @@ for file in svgs/*.svg; do
 
     new_name=$(echo "$base" | 
         awk -F, '{print $1}' | 
+        awk '{$1=$1;print}' |       # This removes leading and trailing spaces
+        tr -d ' ' |                 # This removes spaces within the name
         tr '[:upper:]' '[:lower:]' |
         tr '=-' '__')_32.svg
     
@@ -51,11 +53,11 @@ for file in svgs/*_32.svg; do
 done
 
 for file in svgs/*_24.svg; do
-    modify_svg_properties "$file" "1.25px"
+    modify_svg_properties "$file" "2px"
 done
 
 for file in svgs/*_16.svg; do
-    modify_svg_properties "$file" "1px"
+    modify_svg_properties "$file" "2.5px"
 done
 
 # Convert strokes to fills.
@@ -65,10 +67,6 @@ npx oslllo-svg-fixer -s svgs -d svgs --tr 600
 for file in svgs/*.svg; do
     sed -i.bak 's/viewBox="[^"]*"//g' "$file" && rm "$file.bak"
 done
-
-# Remove previous icon font and config.
-#TARGET_DIR="$(dirname "$0")/../../lib/fonts"
-#rm -f "$TARGET_DIR/MoonIcons.json" "$TARGET_DIR/MoonIcons.ttf"
 
 # Create icon font.
 npx svgtofont -s svgs/ -o fonts/

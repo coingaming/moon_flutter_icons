@@ -5,7 +5,7 @@
   "description": "Processes Moon Icons SVGs to icon font and dart types",
   "scripts": {
     "create-icon-font": "./scripts/create_icon_font.sh",
-    "convert-css-to-dart": "node ./scripts/css_to_dart.js ./fonts/MoonIcons.css ../lib/src/moonicons.dart"
+    "convert-css-to-dart": "node ./scripts/css_to_dart.js ./fonts/MoonIcons.css ../lib/src/moonicons.dart ../lib/src/icons_map.dart"
   },
   "devDependencies": {
     "oslllo-svg-fixer": "^3.0.0",

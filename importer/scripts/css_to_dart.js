@@ -5,35 +5,42 @@ const fs = require("fs");
 const kRegexCSS = /\.MoonIcons\-(.*):before.*"\\(.*)\";/g;
 
 const args = process.argv.slice(2);
-if (args.length < 2) {
+if (args.length < 3) {
   console.log(
-    "Usage: ./node css_to_dart.js <input-icons-tsv> <output-icon-data-dart>"
+    "Usage: ./node css_to_dart.js <input-icons-tsv> <output-icon-data-dart> <output-map-data-dart>"
   );
   process.exit(1);
 }
 
 const mappingFile = args[0];
-const outputDarFile = args[1];
+const outputIconsFile = args[1];
+const outputMapFile = args[2];
 
-const stream = fs.createWriteStream(outputDarFile);
+const iconsStream = fs.createWriteStream(outputIconsFile);
+const mapStream = fs.createWriteStream(outputMapFile);
 
-// Data
-stream.write("import 'package:flutter/widgets.dart';\n\n");
+// Icons file header
+iconsStream.write("import 'package:flutter/widgets.dart';\n\n");
 
-stream.write("/// A convenience class.\n");
-stream.write("class MoonIconsData extends IconData {\n");
-stream.write("  const MoonIconsData(int code)\n");
-stream.write("      : super(\n");
-stream.write("          code,\n");
-stream.write("          fontFamily: 'MoonIcons',\n");
-stream.write("          fontPackage: 'moon_icons',\n");
-stream.write("        );\n");
-stream.write("}\n\n");
+iconsStream.write("// Generated code: do not hand-edit.\n");
+iconsStream.write("class MoonIcons {\n");
+iconsStream.write("  MoonIcons._();\n\n");
 
-stream.write("/// Use with the Icon class to show specific icons.\n");
-stream.write("class MoonIcons {\n");
+iconsStream.write("  static const _kFontFam = 'MoonIcons';\n");
+iconsStream.write("  static const _kFontPkg = 'moon_icons';\n\n");
 
-/// Parse
+// Map file header
+mapStream.write("import 'package:flutter/widgets.dart';\n");
+mapStream.write("import './icons.dart';\n\n");
+
+mapStream.write("// Generated code: do not hand-edit.\n\n");
+
+mapStream.write(
+  "/// Convenience Map to facilitate the demonstration of icons.\n"
+);
+mapStream.write("final iconsMap = <String, IconData>{\n");
+
+// Parse
 console.log("Parsing:", mappingFile);
 const data = fs.readFileSync(mappingFile, { encoding: "utf8" });
 const mapping = {};
@@ -47,25 +54,27 @@ for (const match of matches) {
   let name = match[1];
   const code = match[2];
 
-  stream.write(`  /// ${name}\n`); // origin name
+  iconsStream.write(`  /// ${name}\n`); // origin name
   mapping[name] = `0x${code}`;
 
   name = name.toLowerCase().replaceAll("-", "_");
 
-  stream.write(`  static const ${name} = MoonIconsData(0x${code});\n\n`);
+  iconsStream.write(
+    `  static const IconData ${name} = IconData(0x${code}, fontFamily: _kFontFam, fontPackage: _kFontPkg);\n\n`
+  );
+
+  mapStream.write(`  "${name}": MoonIcons.${name},\n`);
 
   counter++;
 }
 
-stream.write("}\n");
+// Icons file footer
+iconsStream.write("}\n\n");
+iconsStream.end();
 
-// Mapping
-stream.write("\n");
-stream.write("const moonIconsMap = ");
-stream.write(JSON.stringify(mapping, null, 2));
-stream.write(";\n");
+// Map file footer
+mapStream.write("};\n\n");
+mapStream.end();
 
-stream.end();
-
-console.log("Write source to:", outputDarFile);
+console.log("Write source to:", outputIconsFile);
 console.log("Total:", counter);

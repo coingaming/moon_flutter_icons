@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moon_icons_demo/icons_map.dart';
+import 'package:moon_icons/moon_icons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -51,13 +51,54 @@ class MyHomePage extends StatelessWidget {
                   Text(
                     iconsMap.keys.toList()[index],
                     style: TextStyle(
-                      fontSize: 10,
+                      fontSize: 12,
                       color: Colors.grey[600],
                     ),
                   ),
                 ],
               );
             },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class TextDivider extends StatelessWidget {
+  final String text;
+  final double paddingTop;
+  final double paddingBottom;
+
+  const TextDivider({
+    super.key,
+    required this.text,
+    this.paddingTop = 40,
+    this.paddingBottom = 32,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.only(top: paddingTop, bottom: paddingBottom),
+      child: Row(
+        children: [
+          const Expanded(
+            child: Divider(),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
+            child: Text(
+              text,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: Colors.grey[600],
+              ),
+            ),
+          ),
+          const Expanded(
+            child: Divider(),
           ),
         ],
       ),
