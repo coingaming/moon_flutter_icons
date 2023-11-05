@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:moon_icons_demo/main.dart';
 import 'package:moon_icons_demo/text_divider.dart';
 
 class Segment extends StatelessWidget {
