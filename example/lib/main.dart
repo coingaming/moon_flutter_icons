@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:moon_icons/moon_icons.dart';
+import 'package:moon_icons_demo/segment.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,84 +24,22 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Map<String, Map<String, IconData>> segments = {};
+
+    for (String key in iconsMap.keys) {
+      String segment = key.split('_').first;
+      if (!segments.containsKey(segment)) {
+        segments[segment] = {};
+      }
+      segments[segment]![key] = iconsMap[key]!;
+    }
+
     return Scaffold(
       appBar: AppBar(
         title: Text("Moon Icons Demo"),
       ),
       body: CustomScrollView(
-        slivers: [
-          SliverGrid.builder(
-            itemCount: iconsMap.length,
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 3,
-              crossAxisSpacing: 8,
-              mainAxisExtent: 104,
-            ),
-            itemBuilder: (BuildContext context, int index) {
-              return Column(
-                mainAxisSize: MainAxisSize.min,
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [
-                  if (iconsMap.keys.toList()[index].contains("16"))
-                    Icon(iconsMap.values.toList()[index], size: 16)
-                  else if (iconsMap.keys.toList()[index].contains("24"))
-                    Icon(iconsMap.values.toList()[index], size: 24)
-                  else
-                    Icon(iconsMap.values.toList()[index], size: 32),
-                  const SizedBox(height: 20),
-                  Text(
-                    iconsMap.keys.toList()[index],
-                    style: TextStyle(
-                      fontSize: 12,
-                      color: Colors.grey[600],
-                    ),
-                  ),
-                ],
-              );
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class TextDivider extends StatelessWidget {
-  final String text;
-  final double paddingTop;
-  final double paddingBottom;
-
-  const TextDivider({
-    super.key,
-    required this.text,
-    this.paddingTop = 40,
-    this.paddingBottom = 32,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.only(top: paddingTop, bottom: paddingBottom),
-      child: Row(
-        children: [
-          const Expanded(
-            child: Divider(),
-          ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16.0),
-            child: Text(
-              text,
-              style: TextStyle(
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
-                color: Colors.grey[600],
-              ),
-            ),
-          ),
-          const Expanded(
-            child: Divider(),
-          ),
-        ],
+        slivers: segments.values.map((e) => Segment(segmentMap: e)).toList(),
       ),
     );
   }
