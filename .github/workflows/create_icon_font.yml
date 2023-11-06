@@ -21,7 +21,7 @@ jobs:
         run: npm run create-icon-font
         working-directory: ./importer
         env:
-          PAT: ${{ secrets.AUTOMATION_PAT }}
+          PAT: ${{ secrets.MOON_GH_TOKEN }}
 
       - name: Generate Dart classes
         run: npm run convert-css-to-dart

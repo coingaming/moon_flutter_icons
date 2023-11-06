@@ -15,7 +15,7 @@ jobs:
       - uses: amannn/action-semantic-pull-request@v5
         id: lint_pr_title
         env:
-          GITHUB_TOKEN: ${{ secrets.AUTOMATION_PAT }}
+          GITHUB_TOKEN: ${{ secrets.MOON_GH_TOKEN }}
 
       - uses: marocchino/sticky-pull-request-comment@v2
         # When the previous steps fails, the workflow would stop. By adding this

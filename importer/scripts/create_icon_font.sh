@@ -53,11 +53,11 @@ for file in svgs/*_32.svg; do
 done
 
 for file in svgs/*_24.svg; do
-    modify_svg_properties "$file" "2px"
+    modify_svg_properties "$file" "2.25px"
 done
 
 for file in svgs/*_16.svg; do
-    modify_svg_properties "$file" "2.5px"
+    modify_svg_properties "$file" "3px"
 done
 
 # Convert strokes to fills.
