@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import './moonicons.dart';
+import './icons.dart';
 
 // Generated code: do not hand-edit.
 
@@ -1344,3 +1344,4 @@ final iconsMap = <String, IconData>{
   "travel_yacht_24": MoonIcons.travel_yacht_24,
   "travel_yacht_32": MoonIcons.travel_yacht_32,
 };
+
