@@ -1,0 +1,12 @@
+{
+  "include-component-in-tag": false,
+  "packages": {
+    ".": {
+      "release-type": "dart",
+      "bump-minor-pre-major": true,
+      "bump-patch-for-minor-pre-major": false,
+      "draft": false,
+      "prerelease": false
+    }
+  }
+}
