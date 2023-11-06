@@ -4,6 +4,11 @@
 # will use the one from the workflow environment by default.
 export $(egrep -v '^#' .env | xargs)
 
+# If anything in script fails exit immediately.
+set -o errexit
+set -o nounset
+set -o pipefail
+
 # Fetch icons from moon-icons-base repository
 git clone --depth 1 https://$PAT@github.com/coingaming/moon-icons-base.git temp_repo
 mkdir -p svgs
