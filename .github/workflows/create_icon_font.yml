@@ -1,7 +1,13 @@
 name: Create icon font
 
+# Used to allow moon-icons-base workflow to trigger this workflow and also manual triggering.
 on:
   workflow_dispatch:
+
+# So only the latest run is executed. Used to avoid concurrency issues as Figma webhook can be spammy at times.
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs: 
   create_icon_font:

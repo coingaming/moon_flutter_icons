@@ -19,50 +19,34 @@ rm -rf temp_repo
 for file in svgs/*.svg; do
     base=$(basename "$file" .svg)
 
-    new_name=$(echo "$base" | 
-        awk -F, '{print $1}' | 
-        awk '{$1=$1;print}' |       # This removes leading and trailing spaces
-        tr -d ' ' |                 # This removes spaces within the name
-        tr '[:upper:]' '[:lower:]' |
-        tr '=-' '__')_32.svg
-    
+    # Lowercase the entire string
+    base=$(echo "$base" | awk '{print tolower($0)}')
+
+    # Trim whitespace
+    base=$(echo "$base" | xargs)
+
+    # Replace '=' in the first segment with '_', remove all but numbers in the second,
+    # and map "1.5px" to "regular", "1px" to "thin" in the third.
+    IFS=',' read -ra SEGMENTS <<< "$base"
+    SEGMENTS[0]=$(echo "${SEGMENTS[0]}" | tr '=' '_')
+    SEGMENTS[1]=$(echo "${SEGMENTS[1]}" | grep -o '[0-9]*')
+    SEGMENTS[2]=$(echo "${SEGMENTS[2]}" | sed -e 's/.*1\.5px/regular/' -e 's/.*1px/thin/')
+
+    # Reassemble the segments, replace remaining commas with underscores,
+    # and replace any remaining hyphens with underscores
+    new_name=$(IFS=_; echo "${SEGMENTS[*]}" | tr '-' '_').svg
+
+    # Rename the file
+    echo "Renaming $file to $new_name"
     mv "$file" "svgs/$new_name"
 done
 
-# Create _16 and _24 suffix copies for each icon.
-for file in svgs/*_32.svg; do
-    base=$(basename "$file" .svg)
-    for suffix in 16 24; do
-        cp "$file" "svgs/${base/_32/_${suffix}}.svg"
-    done
-done
-
 # Optimise the SVGs.
-npx svgo -f svgs -r -o svgs
+#npx svgo -f svgs -r -o svgs
 
 # Modify SVG width and height to 1000px.
 for file in svgs/*.svg; do
     sed -i.bak -e 's/width="[^"]*"/width="1000px"/g' -e 's/height="[^"]*"/height="1000px"/g' "$file" && rm "$file.bak"
-done
-
-# Add relevant stroke-width to every path.
-modify_svg_properties() {
-    local file=$1
-    local stroke_width=$2
-
-    awk -v sw="$stroke_width" '{ gsub(/<path/, "<path stroke-width=\"" sw "\""); print }' "$file" > "$file.tmp" && mv "$file.tmp" "$file"   
-}
-
-for file in svgs/*_32.svg; do
-    modify_svg_properties "$file" "1.5px"
-done
-
-for file in svgs/*_24.svg; do
-    modify_svg_properties "$file" "2.25px"
-done
-
-for file in svgs/*_16.svg; do
-    modify_svg_properties "$file" "3px"
 done
 
 # Convert strokes to fills.
