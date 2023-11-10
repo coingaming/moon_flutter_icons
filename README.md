@@ -1,5 +1,7 @@
 # Moon Design System Icons
 
+[![Version](https://img.shields.io/pub/v/moon_icons.svg)](https://pub.dev/packages/moon_icons) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org) 
+
 Moon Design System Icons. A collection of modern and beautifully crafted icons. 
 
 ## Usage
