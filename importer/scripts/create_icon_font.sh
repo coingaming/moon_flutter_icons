@@ -19,43 +19,31 @@ rm -rf temp_repo
 for file in svgs/*.svg; do
     base=$(basename "$file" .svg)
 
-    # Lowercase the entire string
-    base=$(echo "$base" | awk '{print tolower($0)}')
+    new_name=$(echo "$base" | awk -F, '{
+        # Lowercase the entire string
+        $0 = tolower($0);
 
-    # Trim whitespace
-    base=$(echo "$base" | xargs)
+        # Segment 1: Replace "=" with "_", and "-" with "_"
+        gsub(/=/, "_", $1);
+        gsub(/-/, "_", $1);
 
-    # Replace '=' in the first segment with '_', remove all but numbers in the second,
-    # and map "1.5px" to "regular", "1px" to "thin" in the third.
-    IFS=',' read -ra SEGMENTS <<< "$base"
-    SEGMENTS[0]=$(echo "${SEGMENTS[0]}" | tr '=' '_')
-    SEGMENTS[1]=$(echo "${SEGMENTS[1]}" | grep -o '[0-9]*')
-    SEGMENTS[2]=$(echo "${SEGMENTS[2]}" | sed -e 's/.*1\.5px/regular/' -e 's/.*1px/thin/')
+        # Segment 2: Keep numbers only
+        gsub(/[^0-9]/, "", $2);
 
-    # Reassemble the segments, replace remaining commas with underscores,
-    # and replace any remaining hyphens with underscores
-    new_name=$(IFS=_; echo "${SEGMENTS[*]}" | tr '-' '_').svg
+        # Segment 3: Discard everything before and including "="
+        sub(/^[^=]*=/, "", $3);
+
+        # Reassemble the segments
+        print $1 "_" $2 "_" $3 ".svg";
+    }')
 
     # Rename the file
     echo "Renaming $file to $new_name"
     mv "$file" "svgs/$new_name"
 done
 
-# Optimise the SVGs.
-#npx svgo -f svgs -r -o svgs
-
-# Modify SVG width and height to 1000px.
-for file in svgs/*.svg; do
-    sed -i.bak -e 's/width="[^"]*"/width="1000px"/g' -e 's/height="[^"]*"/height="1000px"/g' "$file" && rm "$file.bak"
-done
-
 # Convert strokes to fills.
-npx oslllo-svg-fixer -s svgs -d svgs --tr 600
-
-# Remove viewBox attribute from SVGs before converting to font.
-for file in svgs/*.svg; do
-    sed -i.bak 's/viewBox="[^"]*"//g' "$file" && rm "$file.bak"
-done
+npx oslllo-svg-fixer -s svgs -d svgs --tr 1000
 
 # Create icon font.
 npx svgtofont -s svgs/ -o fonts/

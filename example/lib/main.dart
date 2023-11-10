@@ -25,13 +25,38 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Map<String, Map<String, IconData>> segments = {};
+    Map<String, Map<String, IconData>> lightSegments = {};
+    Map<String, Map<String, IconData>> regularSegments = {};
 
     for (String key in iconsMap.keys) {
-      String segment = key.split('_').first;
-      if (!segments.containsKey(segment)) {
-        segments[segment] = {};
+      // Extract the segment and type (like light or regular)
+      List<String> parts = key.split('_');
+      String segment = parts.first;
+      String type = parts.last;
+
+      if (type == "light") {
+        if (!lightSegments.containsKey(segment)) {
+          lightSegments[segment] = {};
+        }
+        lightSegments[segment]![key] = iconsMap[key]!;
+      } else if (type == "regular") {
+        if (!regularSegments.containsKey(segment)) {
+          regularSegments[segment] = {};
+        }
+        regularSegments[segment]![key] = iconsMap[key]!;
       }
-      segments[segment]![key] = iconsMap[key]!;
+    }
+
+    // Merging the "light" and "regular" segments in the desired order
+    for (String segment in lightSegments.keys) {
+      segments[segment] = lightSegments[segment]!;
+    }
+    for (String segment in regularSegments.keys) {
+      if (!segments.containsKey(segment)) {
+        segments[segment] = regularSegments[segment]!;
+      } else {
+        segments[segment]!.addAll(regularSegments[segment]!);
+      }
     }
 
     return Scaffold(
