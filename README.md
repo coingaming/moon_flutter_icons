@@ -12,7 +12,7 @@ import 'package:moon_icons/moon_icons.dart';
 class ExampleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
-        icon: Icon(MoonIcons.about_24),
+        icon: Icon(MoonIcons.arrows_boost_16_regular),
         onPressed: () { print("Button tapped"); }
     );
   }
