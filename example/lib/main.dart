@@ -85,9 +85,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Moon Icons Demo"),
       ),
-      body: CustomScrollView(
-        slivers: segments.values.map((e) => Segment(segmentMap: e)).toList(),
-      ),
+      body: CustomScrollView(slivers: segments.values.map((e) => Segment(segmentMap: e)).toList()),
     );
   }
 }

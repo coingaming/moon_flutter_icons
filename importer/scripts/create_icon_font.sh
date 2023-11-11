@@ -46,7 +46,7 @@ done
 npx svgo -f svgs -r -o svgs
 
 # Convert strokes to fills.
-npx oslllo-svg-fixer -s svgs -d svgs --tr 1000
+npx oslllo-svg-fixer -s svgs -d svgs --tr 1024
 
 # Create icon font.
 npx svgtofont -s svgs/ -o fonts/
