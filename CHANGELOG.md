@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.1...v0.1.2) (2023-11-11)
+
+
+### Bug Fixes
+
+* Display segments in example more clearly ([290ea54](https://github.com/coingaming/moon_flutter_icons/commit/290ea5436297a04d3363e5f5f21fe29a3d20b6bb))
+
 ## [0.1.1](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.0...v0.1.1) (2023-11-10)
 
 
