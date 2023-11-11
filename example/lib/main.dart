@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:moon_icons/moon_icons.dart';
 import 'package:moon_icons_demo/segment.dart';
@@ -47,17 +49,37 @@ class MyHomePage extends StatelessWidget {
       }
     }
 
-    // Merging the "light" and "regular" segments in the desired order
-    for (String segment in lightSegments.keys) {
-      segments[segment] = lightSegments[segment]!;
-    }
-    for (String segment in regularSegments.keys) {
-      if (!segments.containsKey(segment)) {
-        segments[segment] = regularSegments[segment]!;
-      } else {
-        segments[segment]!.addAll(regularSegments[segment]!);
+    Map<String, Map<String, IconData>> combinedSegments = {};
+
+    // Get all unique segment names
+    Set<String> allSegments = lightSegments.keys.toSet()..addAll(regularSegments.keys);
+
+    for (String segment in allSegments) {
+      combinedSegments[segment] = {};
+
+      // Get the list of keys from light and regular segments for this segment
+      List<String> lightKeys = lightSegments[segment]?.keys.toList() ?? [];
+      List<String> regularKeys = regularSegments[segment]?.keys.toList() ?? [];
+
+      // Iterate in steps of 3 for trios
+      int maxLightIndex = ((lightKeys.length / 3).ceil() * 3);
+      int maxRegularIndex = ((regularKeys.length / 3).ceil() * 3);
+
+      for (int i = 0; i < max(maxLightIndex, maxRegularIndex); i += 3) {
+        // Add up to three light icons
+        for (int j = i; j < min(i + 3, lightKeys.length); j++) {
+          String key = lightKeys[j];
+          combinedSegments[segment]![key] = lightSegments[segment]![key]!;
+        }
+        // Add up to three regular icons
+        for (int j = i; j < min(i + 3, regularKeys.length); j++) {
+          String key = regularKeys[j];
+          combinedSegments[segment]![key] = regularSegments[segment]![key]!;
+        }
       }
     }
+
+    segments = combinedSegments;
 
     return Scaffold(
       appBar: AppBar(
