@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.2...v0.1.3) (2023-11-11)
+
+
+### Bug Fixes
+
+* Re-add SVGO to workflow ([35b23a0](https://github.com/coingaming/moon_flutter_icons/commit/35b23a004ef23f3ecc5124afdd06cf7c405dd227))
+
 ## [0.1.2](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.1...v0.1.2) (2023-11-11)
 
 
