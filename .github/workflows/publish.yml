@@ -1,9 +1,9 @@
 name: Publish to pub.dev
 
 on:
-  push:
-    branches:
-      - main
+  #push:
+    #branches:
+      #- main
 
   # Allow manual triggering of the workflow.
   workflow_dispatch:
@@ -11,7 +11,7 @@ on:
 # Publish using the reusable workflow from dart-lang.
 jobs:
   publish:
-    if: "${{ contains(github.event.head_commit.message, 'chore(main): release') }}"
+    # if: "${{ contains(github.event.head_commit.message, 'chore(main): release') }}"
     permissions:
       id-token: write # Required for authentication using OIDC
 
