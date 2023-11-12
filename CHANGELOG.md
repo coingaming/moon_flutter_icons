@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.6...v0.1.7) (2023-11-12)
+
+
+### Bug Fixes
+
+* Fix the font ([2fdde4b](https://github.com/coingaming/moon_flutter_icons/commit/2fdde4ba4820ac637e3ccb11890edbcfc78703fd))
+
 ## [0.1.6](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.5...v0.1.6) (2023-11-12)
 
 
