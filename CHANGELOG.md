@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.3...v0.1.4) (2023-11-11)
+
+
+### Bug Fixes
+
+* Change font conversion parameters ([0e197a8](https://github.com/coingaming/moon_flutter_icons/commit/0e197a84a8a6d8823e7c72c2c77fb4855cceaa0c))
+
 ## [0.1.3](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.2...v0.1.3) (2023-11-11)
 
 
