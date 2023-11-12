@@ -2,6 +2,7 @@ name: moon_icons
 description: Moon Design System Icons. A collection of modern and beautifully crafted icons. 
 version: 0.1.4
 homepage: https://github.com/coingaming/moon_flutter_icons
+repository: https://github.com/coingaming/moon_flutter_icons
 
 environment:
   sdk: '>=2.17.0 <4.0.0'
