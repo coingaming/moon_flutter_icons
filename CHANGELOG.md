@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.6](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.5...v0.1.6) (2023-11-12)
+
+
+### Bug Fixes
+
+* Fix publish workflow ([82d0896](https://github.com/coingaming/moon_flutter_icons/commit/82d089641ac2722003cc4e52b827cd319090d8f2))
+
 ## [0.1.5](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.4...v0.1.5) (2023-11-12)
 
 
