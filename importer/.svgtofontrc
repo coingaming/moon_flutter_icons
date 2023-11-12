@@ -9,7 +9,8 @@
     "include": "\\.css$"
   },
   "svgicons2svgfont": {
-    "fontHeight": 512,
-    "normalize": true
+    "fontHeight": 1024,
+    "normalize": true,
+    "descent": 128 
   }
 }
