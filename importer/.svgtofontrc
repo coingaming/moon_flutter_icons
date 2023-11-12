@@ -11,6 +11,6 @@
   "svgicons2svgfont": {
     "fontHeight": 1024,
     "normalize": true,
-    "descent": 128 
+    "descent": 164
   }
 }

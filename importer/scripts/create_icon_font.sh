@@ -42,9 +42,6 @@ for file in svgs/*.svg; do
     mv "$file" "svgs/$new_name"
 done
 
-# Optimise the SVGs.
-npx svgo -f svgs -r -o svgs
-
 # Convert strokes to fills.
 npx oslllo-svg-fixer -s svgs -d svgs --tr 1024
 
