@@ -18,8 +18,11 @@ class Segment extends StatelessWidget {
 
     return SliverMainAxisGroup(
       slivers: [
-        SliverToBoxAdapter(
-          child: TextDivider(text: createSegmentTitle(segmentMap.keys.first)),
+        SliverPadding(
+          padding: const EdgeInsets.only(top: 24),
+          sliver: SliverToBoxAdapter(
+            child: TextDivider(text: createSegmentTitle(segmentMap.keys.first)),
+          ),
         ),
         SliverGrid.builder(
           itemCount: segmentMap.length,

@@ -24,6 +24,15 @@ class MyApp extends StatelessWidget {
 class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
+  // Helper function to group keys in trios
+  List<List<String>> _groupInTrios(List<String> keys) {
+    List<List<String>> trios = [];
+    for (int i = 0; i < keys.length; i += 3) {
+      trios.add(keys.sublist(i, min(i + 3, keys.length)));
+    }
+    return trios;
+  }
+
   @override
   Widget build(BuildContext context) {
     Map<String, Map<String, IconData>> segments = {};
@@ -61,20 +70,25 @@ class MyHomePage extends StatelessWidget {
       List<String> lightKeys = lightSegments[segment]?.keys.toList() ?? [];
       List<String> regularKeys = regularSegments[segment]?.keys.toList() ?? [];
 
-      // Iterate in steps of 3 for trios
-      int maxLightIndex = ((lightKeys.length / 3).ceil() * 3);
-      int maxRegularIndex = ((regularKeys.length / 3).ceil() * 3);
+      // Group the keys in trios
+      List<List<String>> lightTrios = _groupInTrios(lightKeys);
+      List<List<String>> regularTrios = _groupInTrios(regularKeys);
 
-      for (int i = 0; i < max(maxLightIndex, maxRegularIndex); i += 3) {
-        // Add up to three light icons
-        for (int j = i; j < min(i + 3, lightKeys.length); j++) {
-          String key = lightKeys[j];
-          combinedSegments[segment]![key] = lightSegments[segment]![key]!;
+      // Maximum number of trios in either list
+      int maxTrios = max(lightTrios.length, regularTrios.length);
+
+      for (int i = 0; i < maxTrios; i++) {
+        // Add light trios if available
+        if (i < lightTrios.length) {
+          for (String key in lightTrios[i]) {
+            combinedSegments[segment]![key] = lightSegments[segment]![key]!;
+          }
         }
-        // Add up to three regular icons
-        for (int j = i; j < min(i + 3, regularKeys.length); j++) {
-          String key = regularKeys[j];
-          combinedSegments[segment]![key] = regularSegments[segment]![key]!;
+        // Add regular trios if available
+        if (i < regularTrios.length) {
+          for (String key in regularTrios[i]) {
+            combinedSegments[segment]![key] = regularSegments[segment]![key]!;
+          }
         }
       }
     }
