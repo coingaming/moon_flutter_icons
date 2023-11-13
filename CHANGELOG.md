@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.8...v0.2.0) (2023-11-13)
+
+
+### Features
+
+* Re-generate icon with correct ascender ([3d1517f](https://github.com/coingaming/moon_flutter_icons/commit/3d1517f4f3038da20e2c37101849ae81e6c672bd))
+
 ## [0.1.8](https://github.com/coingaming/moon_flutter_icons/compare/v0.1.7...v0.1.8) (2023-11-12)
 
 
