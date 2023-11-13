@@ -10,7 +10,7 @@ set -o nounset
 set -o pipefail
 
 # Fetch icons from moon-icons-base repository
-git clone --depth 1 https://$PAT@github.com/coingaming/moon-icons-base.git temp_repo
+git clone --depth 1 https://github.com/coingaming/moon-icons-base.git temp_repo
 mkdir -p svgs
 cp -r temp_repo/icons/* ./svgs/
 rm -rf temp_repo
