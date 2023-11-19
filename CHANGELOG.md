@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.2.1...v0.3.0) (2023-11-19)
+
+
+### Features
+
+* Flutter version bump and add treeshaking tag ([5c95375](https://github.com/coingaming/moon_flutter_icons/commit/5c95375121703f8f723076873f2b11e646f49309))
+
 ## [0.2.1](https://github.com/coingaming/moon_flutter_icons/compare/v0.2.0...v0.2.1) (2023-11-13)
 
 
