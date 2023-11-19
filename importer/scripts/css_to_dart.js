@@ -23,8 +23,8 @@ const mapStream = fs.createWriteStream(outputMapFile);
 iconsStream.write("import 'package:flutter/widgets.dart';\n\n");
 
 iconsStream.write("// Generated code: do not hand-edit.\n");
-iconsStream.write("class MoonIcons {\n");
-iconsStream.write("  MoonIcons._();\n\n");
+iconsStream.write("@staticIconProvider\n");
+iconsStream.write("abstract final class MoonIcons {\n");
 
 iconsStream.write("  static const _kFontFam = 'MoonIcons';\n");
 iconsStream.write("  static const _kFontPkg = 'moon_icons';\n\n");

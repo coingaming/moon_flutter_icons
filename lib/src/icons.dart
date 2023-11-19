@@ -1,9 +1,8 @@
 import 'package:flutter/widgets.dart';
 
 // Generated code: do not hand-edit.
-class MoonIcons {
-  MoonIcons._();
-
+@staticIconProvider
+abstract final class MoonIcons {
   static const _kFontFam = 'MoonIcons';
   static const _kFontPkg = 'moon_icons';
 
