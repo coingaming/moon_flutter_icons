@@ -12,7 +12,7 @@ import 'package:moon_icons/moon_icons.dart';
 class ExampleWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return IconButton(
-        icon: Icon(MoonIcons.arrows_boost_16_regular),
+        icon: Icon(MoonIcons.arrows_boost_24_regular),
         onPressed: () { print("Button tapped"); }
     );
   }
@@ -24,6 +24,10 @@ View the demo app in the [example](https://github.com/coingaming/moon_flutter_ic
 
 ## FAQs
 
-### What does the number signify in the icons names?
+### What does the number signify in the icon name?
 
-The numbers in the icon signify the intended size of the icons where they look the best.
+The number in the icon name is an indication of the intended size of the icon where it looks the best.
+
+### Why are the icons too low on mobile web browsers?
+
+If that is the case then you need to use the canvaskit renderer when building for web. HTML renderer has issues with font rendering (some have been open for years on Flutter GitHub issues). 
