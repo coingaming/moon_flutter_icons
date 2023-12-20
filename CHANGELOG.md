@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.3.0...v0.4.0) (2023-12-20)
+
+
+### Features
+
+* Update icon font - mail_relink icon added ([#35](https://github.com/coingaming/moon_flutter_icons/issues/35)) ([7155471](https://github.com/coingaming/moon_flutter_icons/commit/7155471f0bd8b2448af065b25f13907fae48a91b))
+
 ## [0.3.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.2.1...v0.3.0) (2023-11-19)
 
 
