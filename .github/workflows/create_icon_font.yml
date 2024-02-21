@@ -34,6 +34,6 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: 'feat: Update icon font'
+          commit-message: 'feat: 🤖 ${{ github.event.client_payload.description }}'
           title: 'feat: Update icon font'
           branch: update-icon-font
