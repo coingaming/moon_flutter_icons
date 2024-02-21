@@ -34,6 +34,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: 'feat: 🤖 ${{ github.event.client_payload.description }}'
-          title: 'feat: 🤖 ${{ github.event.client_payload.description }}'
+          # inputs.description gets relayed as payload from moon-icons-base workflow
+          commit-message: 'feat: ${{ inputs.description }}'
+          title: 'feat: ${{ inputs.description }}'
           branch: update-icon-font
