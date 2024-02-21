@@ -7071,1085 +7071,1088 @@ abstract final class MoonIcons {
   /// sport_zed_run_32_regular
   static const IconData sport_zed_run_32_regular = IconData(0xf333, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
+  /// test__
+  static const IconData test__ = IconData(0xf334, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+
   /// text_anchor_16_light
-  static const IconData text_anchor_16_light = IconData(0xf334, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_anchor_16_light = IconData(0xf335, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_anchor_16_regular
-  static const IconData text_anchor_16_regular = IconData(0xf335, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_anchor_16_regular = IconData(0xf336, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_anchor_24_light
-  static const IconData text_anchor_24_light = IconData(0xf336, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_anchor_24_light = IconData(0xf337, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_anchor_24_regular
-  static const IconData text_anchor_24_regular = IconData(0xf337, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_anchor_24_regular = IconData(0xf338, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_anchor_32_light
-  static const IconData text_anchor_32_light = IconData(0xf338, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_anchor_32_light = IconData(0xf339, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_anchor_32_regular
-  static const IconData text_anchor_32_regular = IconData(0xf339, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_anchor_32_regular = IconData(0xf33a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_attach_16_light
-  static const IconData text_attach_16_light = IconData(0xf33a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_attach_16_light = IconData(0xf33b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_attach_16_regular
-  static const IconData text_attach_16_regular = IconData(0xf33b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_attach_16_regular = IconData(0xf33c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_attach_24_light
-  static const IconData text_attach_24_light = IconData(0xf33c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_attach_24_light = IconData(0xf33d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_attach_24_regular
-  static const IconData text_attach_24_regular = IconData(0xf33d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_attach_24_regular = IconData(0xf33e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_attach_32_light
-  static const IconData text_attach_32_light = IconData(0xf33e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_attach_32_light = IconData(0xf33f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_attach_32_regular
-  static const IconData text_attach_32_regular = IconData(0xf33f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_attach_32_regular = IconData(0xf340, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bold_16_light
-  static const IconData text_bold_16_light = IconData(0xf340, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bold_16_light = IconData(0xf341, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bold_16_regular
-  static const IconData text_bold_16_regular = IconData(0xf341, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bold_16_regular = IconData(0xf342, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bold_24_light
-  static const IconData text_bold_24_light = IconData(0xf342, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bold_24_light = IconData(0xf343, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bold_24_regular
-  static const IconData text_bold_24_regular = IconData(0xf343, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bold_24_regular = IconData(0xf344, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bold_32_light
-  static const IconData text_bold_32_light = IconData(0xf344, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bold_32_light = IconData(0xf345, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bold_32_regular
-  static const IconData text_bold_32_regular = IconData(0xf345, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bold_32_regular = IconData(0xf346, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bullets_list_16_light
-  static const IconData text_bullets_list_16_light = IconData(0xf346, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bullets_list_16_light = IconData(0xf347, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bullets_list_16_regular
-  static const IconData text_bullets_list_16_regular = IconData(0xf347, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bullets_list_16_regular = IconData(0xf348, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bullets_list_24_light
-  static const IconData text_bullets_list_24_light = IconData(0xf348, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bullets_list_24_light = IconData(0xf349, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bullets_list_24_regular
-  static const IconData text_bullets_list_24_regular = IconData(0xf349, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bullets_list_24_regular = IconData(0xf34a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bullets_list_32_light
-  static const IconData text_bullets_list_32_light = IconData(0xf34a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bullets_list_32_light = IconData(0xf34b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_bullets_list_32_regular
-  static const IconData text_bullets_list_32_regular = IconData(0xf34b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_bullets_list_32_regular = IconData(0xf34c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cards_16_light
-  static const IconData text_cards_16_light = IconData(0xf34c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cards_16_light = IconData(0xf34d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cards_16_regular
-  static const IconData text_cards_16_regular = IconData(0xf34d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cards_16_regular = IconData(0xf34e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cards_24_light
-  static const IconData text_cards_24_light = IconData(0xf34e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cards_24_light = IconData(0xf34f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cards_24_regular
-  static const IconData text_cards_24_regular = IconData(0xf34f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cards_24_regular = IconData(0xf350, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cards_32_light
-  static const IconData text_cards_32_light = IconData(0xf350, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cards_32_light = IconData(0xf351, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cards_32_regular
-  static const IconData text_cards_32_regular = IconData(0xf351, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cards_32_regular = IconData(0xf352, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_center_16_light
-  static const IconData text_center_16_light = IconData(0xf352, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_center_16_light = IconData(0xf353, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_center_16_regular
-  static const IconData text_center_16_regular = IconData(0xf353, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_center_16_regular = IconData(0xf354, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_center_24_light
-  static const IconData text_center_24_light = IconData(0xf354, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_center_24_light = IconData(0xf355, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_center_24_regular
-  static const IconData text_center_24_regular = IconData(0xf355, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_center_24_regular = IconData(0xf356, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_center_32_light
-  static const IconData text_center_32_light = IconData(0xf356, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_center_32_light = IconData(0xf357, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_center_32_regular
-  static const IconData text_center_32_regular = IconData(0xf357, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_center_32_regular = IconData(0xf358, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_clear_formatting_16_light
-  static const IconData text_clear_formatting_16_light = IconData(0xf358, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_clear_formatting_16_light = IconData(0xf359, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_clear_formatting_16_regular
-  static const IconData text_clear_formatting_16_regular = IconData(0xf359, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_clear_formatting_16_regular = IconData(0xf35a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_clear_formatting_24_light
-  static const IconData text_clear_formatting_24_light = IconData(0xf35a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_clear_formatting_24_light = IconData(0xf35b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_clear_formatting_24_regular
-  static const IconData text_clear_formatting_24_regular = IconData(0xf35b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_clear_formatting_24_regular = IconData(0xf35c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_clear_formatting_32_light
-  static const IconData text_clear_formatting_32_light = IconData(0xf35c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_clear_formatting_32_light = IconData(0xf35d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_clear_formatting_32_regular
-  static const IconData text_clear_formatting_32_regular = IconData(0xf35d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_clear_formatting_32_regular = IconData(0xf35e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cut_16_light
-  static const IconData text_cut_16_light = IconData(0xf35e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cut_16_light = IconData(0xf35f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cut_16_regular
-  static const IconData text_cut_16_regular = IconData(0xf35f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cut_16_regular = IconData(0xf360, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cut_24_light
-  static const IconData text_cut_24_light = IconData(0xf360, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cut_24_light = IconData(0xf361, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cut_24_regular
-  static const IconData text_cut_24_regular = IconData(0xf361, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cut_24_regular = IconData(0xf362, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cut_32_light
-  static const IconData text_cut_32_light = IconData(0xf362, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cut_32_light = IconData(0xf363, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_cut_32_regular
-  static const IconData text_cut_32_regular = IconData(0xf363, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_cut_32_regular = IconData(0xf364, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_decrease_indent_16_light
-  static const IconData text_decrease_indent_16_light = IconData(0xf364, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_decrease_indent_16_light = IconData(0xf365, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_decrease_indent_16_regular
-  static const IconData text_decrease_indent_16_regular = IconData(0xf365, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_decrease_indent_16_regular = IconData(0xf366, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_decrease_indent_24_light
-  static const IconData text_decrease_indent_24_light = IconData(0xf366, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_decrease_indent_24_light = IconData(0xf367, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_decrease_indent_24_regular
-  static const IconData text_decrease_indent_24_regular = IconData(0xf367, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_decrease_indent_24_regular = IconData(0xf368, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_decrease_indent_32_light
-  static const IconData text_decrease_indent_32_light = IconData(0xf368, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_decrease_indent_32_light = IconData(0xf369, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_decrease_indent_32_regular
-  static const IconData text_decrease_indent_32_regular = IconData(0xf369, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_decrease_indent_32_regular = IconData(0xf36a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_hashtag_16_light
-  static const IconData text_hashtag_16_light = IconData(0xf36a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_hashtag_16_light = IconData(0xf36b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_hashtag_16_regular
-  static const IconData text_hashtag_16_regular = IconData(0xf36b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_hashtag_16_regular = IconData(0xf36c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_hashtag_24_light
-  static const IconData text_hashtag_24_light = IconData(0xf36c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_hashtag_24_light = IconData(0xf36d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_hashtag_24_regular
-  static const IconData text_hashtag_24_regular = IconData(0xf36d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_hashtag_24_regular = IconData(0xf36e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_hashtag_32_light
-  static const IconData text_hashtag_32_light = IconData(0xf36e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_hashtag_32_light = IconData(0xf36f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_hashtag_32_regular
-  static const IconData text_hashtag_32_regular = IconData(0xf36f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_hashtag_32_regular = IconData(0xf370, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_increase_indent_16_light
-  static const IconData text_increase_indent_16_light = IconData(0xf370, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_increase_indent_16_light = IconData(0xf371, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_increase_indent_16_regular
-  static const IconData text_increase_indent_16_regular = IconData(0xf371, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_increase_indent_16_regular = IconData(0xf372, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_increase_indent_24_light
-  static const IconData text_increase_indent_24_light = IconData(0xf372, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_increase_indent_24_light = IconData(0xf373, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_increase_indent_24_regular
-  static const IconData text_increase_indent_24_regular = IconData(0xf373, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_increase_indent_24_regular = IconData(0xf374, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_increase_indent_32_light
-  static const IconData text_increase_indent_32_light = IconData(0xf374, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_increase_indent_32_light = IconData(0xf375, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_increase_indent_32_regular
-  static const IconData text_increase_indent_32_regular = IconData(0xf375, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_increase_indent_32_regular = IconData(0xf376, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_insert_line_16_light
-  static const IconData text_insert_line_16_light = IconData(0xf376, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_insert_line_16_light = IconData(0xf377, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_insert_line_16_regular
-  static const IconData text_insert_line_16_regular = IconData(0xf377, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_insert_line_16_regular = IconData(0xf378, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_insert_line_24_light
-  static const IconData text_insert_line_24_light = IconData(0xf378, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_insert_line_24_light = IconData(0xf379, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_insert_line_24_regular
-  static const IconData text_insert_line_24_regular = IconData(0xf379, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_insert_line_24_regular = IconData(0xf37a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_insert_line_32_light
-  static const IconData text_insert_line_32_light = IconData(0xf37a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_insert_line_32_light = IconData(0xf37b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_insert_line_32_regular
-  static const IconData text_insert_line_32_regular = IconData(0xf37b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_insert_line_32_regular = IconData(0xf37c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_italic_16_light
-  static const IconData text_italic_16_light = IconData(0xf37c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_italic_16_light = IconData(0xf37d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_italic_16_regular
-  static const IconData text_italic_16_regular = IconData(0xf37d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_italic_16_regular = IconData(0xf37e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_italic_24_light
-  static const IconData text_italic_24_light = IconData(0xf37e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_italic_24_light = IconData(0xf37f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_italic_24_regular
-  static const IconData text_italic_24_regular = IconData(0xf37f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_italic_24_regular = IconData(0xf380, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_italic_32_light
-  static const IconData text_italic_32_light = IconData(0xf380, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_italic_32_light = IconData(0xf381, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_italic_32_regular
-  static const IconData text_italic_32_regular = IconData(0xf381, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_italic_32_regular = IconData(0xf382, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_left_align_16_light
-  static const IconData text_left_align_16_light = IconData(0xf382, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_left_align_16_light = IconData(0xf383, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_left_align_16_regular
-  static const IconData text_left_align_16_regular = IconData(0xf383, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_left_align_16_regular = IconData(0xf384, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_left_align_24_light
-  static const IconData text_left_align_24_light = IconData(0xf384, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_left_align_24_light = IconData(0xf385, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_left_align_24_regular
-  static const IconData text_left_align_24_regular = IconData(0xf385, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_left_align_24_regular = IconData(0xf386, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_left_align_32_light
-  static const IconData text_left_align_32_light = IconData(0xf386, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_left_align_32_light = IconData(0xf387, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_left_align_32_regular
-  static const IconData text_left_align_32_regular = IconData(0xf387, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_left_align_32_regular = IconData(0xf388, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_list_view_16_light
-  static const IconData text_list_view_16_light = IconData(0xf388, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_list_view_16_light = IconData(0xf389, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_list_view_16_regular
-  static const IconData text_list_view_16_regular = IconData(0xf389, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_list_view_16_regular = IconData(0xf38a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_list_view_24_light
-  static const IconData text_list_view_24_light = IconData(0xf38a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_list_view_24_light = IconData(0xf38b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_list_view_24_regular
-  static const IconData text_list_view_24_regular = IconData(0xf38b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_list_view_24_regular = IconData(0xf38c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_list_view_32_light
-  static const IconData text_list_view_32_light = IconData(0xf38c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_list_view_32_light = IconData(0xf38d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_list_view_32_regular
-  static const IconData text_list_view_32_regular = IconData(0xf38d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_list_view_32_regular = IconData(0xf38e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_marker_16_light
-  static const IconData text_marker_16_light = IconData(0xf38e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_marker_16_light = IconData(0xf38f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_marker_16_regular
-  static const IconData text_marker_16_regular = IconData(0xf38f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_marker_16_regular = IconData(0xf390, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_marker_24_light
-  static const IconData text_marker_24_light = IconData(0xf390, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_marker_24_light = IconData(0xf391, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_marker_24_regular
-  static const IconData text_marker_24_regular = IconData(0xf391, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_marker_24_regular = IconData(0xf392, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_marker_32_light
-  static const IconData text_marker_32_light = IconData(0xf392, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_marker_32_light = IconData(0xf393, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_marker_32_regular
-  static const IconData text_marker_32_regular = IconData(0xf393, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_marker_32_regular = IconData(0xf394, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_math_16_light
-  static const IconData text_math_16_light = IconData(0xf394, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_math_16_light = IconData(0xf395, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_math_16_regular
-  static const IconData text_math_16_regular = IconData(0xf395, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_math_16_regular = IconData(0xf396, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_math_24_light
-  static const IconData text_math_24_light = IconData(0xf396, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_math_24_light = IconData(0xf397, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_math_24_regular
-  static const IconData text_math_24_regular = IconData(0xf397, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_math_24_regular = IconData(0xf398, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_math_32_light
-  static const IconData text_math_32_light = IconData(0xf398, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_math_32_light = IconData(0xf399, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_math_32_regular
-  static const IconData text_math_32_regular = IconData(0xf399, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_math_32_regular = IconData(0xf39a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_numbers_list_16_light
-  static const IconData text_numbers_list_16_light = IconData(0xf39a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_numbers_list_16_light = IconData(0xf39b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_numbers_list_16_regular
-  static const IconData text_numbers_list_16_regular = IconData(0xf39b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_numbers_list_16_regular = IconData(0xf39c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_numbers_list_24_light
-  static const IconData text_numbers_list_24_light = IconData(0xf39c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_numbers_list_24_light = IconData(0xf39d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_numbers_list_24_regular
-  static const IconData text_numbers_list_24_regular = IconData(0xf39d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_numbers_list_24_regular = IconData(0xf39e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_numbers_list_32_light
-  static const IconData text_numbers_list_32_light = IconData(0xf39e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_numbers_list_32_light = IconData(0xf39f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_numbers_list_32_regular
-  static const IconData text_numbers_list_32_regular = IconData(0xf39f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_numbers_list_32_regular = IconData(0xf3a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_right_align_16_light
-  static const IconData text_right_align_16_light = IconData(0xf3a0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_right_align_16_light = IconData(0xf3a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_right_align_16_regular
-  static const IconData text_right_align_16_regular = IconData(0xf3a1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_right_align_16_regular = IconData(0xf3a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_right_align_24_light
-  static const IconData text_right_align_24_light = IconData(0xf3a2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_right_align_24_light = IconData(0xf3a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_right_align_24_regular
-  static const IconData text_right_align_24_regular = IconData(0xf3a3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_right_align_24_regular = IconData(0xf3a4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_right_align_32_light
-  static const IconData text_right_align_32_light = IconData(0xf3a4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_right_align_32_light = IconData(0xf3a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_right_align_32_regular
-  static const IconData text_right_align_32_regular = IconData(0xf3a5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_right_align_32_regular = IconData(0xf3a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_size_16_light
-  static const IconData text_size_16_light = IconData(0xf3a6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_size_16_light = IconData(0xf3a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_size_16_regular
-  static const IconData text_size_16_regular = IconData(0xf3a7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_size_16_regular = IconData(0xf3a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_size_24_light
-  static const IconData text_size_24_light = IconData(0xf3a8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_size_24_light = IconData(0xf3a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_size_24_regular
-  static const IconData text_size_24_regular = IconData(0xf3a9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_size_24_regular = IconData(0xf3aa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_size_32_light
-  static const IconData text_size_32_light = IconData(0xf3aa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_size_32_light = IconData(0xf3ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_size_32_regular
-  static const IconData text_size_32_regular = IconData(0xf3ab, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_size_32_regular = IconData(0xf3ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_strikethrough_16_light
-  static const IconData text_strikethrough_16_light = IconData(0xf3ac, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_strikethrough_16_light = IconData(0xf3ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_strikethrough_16_regular
-  static const IconData text_strikethrough_16_regular = IconData(0xf3ad, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_strikethrough_16_regular = IconData(0xf3ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_strikethrough_24_light
-  static const IconData text_strikethrough_24_light = IconData(0xf3ae, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_strikethrough_24_light = IconData(0xf3af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_strikethrough_24_regular
-  static const IconData text_strikethrough_24_regular = IconData(0xf3af, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_strikethrough_24_regular = IconData(0xf3b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_strikethrough_32_light
-  static const IconData text_strikethrough_32_light = IconData(0xf3b0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_strikethrough_32_light = IconData(0xf3b1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_strikethrough_32_regular
-  static const IconData text_strikethrough_32_regular = IconData(0xf3b1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_strikethrough_32_regular = IconData(0xf3b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_style_16_light
-  static const IconData text_style_16_light = IconData(0xf3b2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_style_16_light = IconData(0xf3b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_style_16_regular
-  static const IconData text_style_16_regular = IconData(0xf3b3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_style_16_regular = IconData(0xf3b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_style_24_light
-  static const IconData text_style_24_light = IconData(0xf3b4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_style_24_light = IconData(0xf3b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_style_24_regular
-  static const IconData text_style_24_regular = IconData(0xf3b5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_style_24_regular = IconData(0xf3b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_style_32_light
-  static const IconData text_style_32_light = IconData(0xf3b6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_style_32_light = IconData(0xf3b7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_style_32_regular
-  static const IconData text_style_32_regular = IconData(0xf3b7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_style_32_regular = IconData(0xf3b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_16_light
-  static const IconData text_table_16_light = IconData(0xf3b8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_16_light = IconData(0xf3b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_16_regular
-  static const IconData text_table_16_regular = IconData(0xf3b9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_16_regular = IconData(0xf3ba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_24_light
-  static const IconData text_table_24_light = IconData(0xf3ba, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_24_light = IconData(0xf3bb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_24_regular
-  static const IconData text_table_24_regular = IconData(0xf3bb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_24_regular = IconData(0xf3bc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_32_light
-  static const IconData text_table_32_light = IconData(0xf3bc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_32_light = IconData(0xf3bd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_32_regular
-  static const IconData text_table_32_regular = IconData(0xf3bd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_32_regular = IconData(0xf3be, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_alternative_16_light
-  static const IconData text_table_alternative_16_light = IconData(0xf3be, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_alternative_16_light = IconData(0xf3bf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_alternative_16_regular
-  static const IconData text_table_alternative_16_regular = IconData(0xf3bf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_alternative_16_regular = IconData(0xf3c0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_alternative_24_light
-  static const IconData text_table_alternative_24_light = IconData(0xf3c0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_alternative_24_light = IconData(0xf3c1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_alternative_24_regular
-  static const IconData text_table_alternative_24_regular = IconData(0xf3c1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_alternative_24_regular = IconData(0xf3c2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_alternative_32_light
-  static const IconData text_table_alternative_32_light = IconData(0xf3c2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_alternative_32_light = IconData(0xf3c3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_table_alternative_32_regular
-  static const IconData text_table_alternative_32_regular = IconData(0xf3c3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_table_alternative_32_regular = IconData(0xf3c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_underline_16_light
-  static const IconData text_underline_16_light = IconData(0xf3c4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_underline_16_light = IconData(0xf3c5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_underline_16_regular
-  static const IconData text_underline_16_regular = IconData(0xf3c5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_underline_16_regular = IconData(0xf3c6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_underline_24_light
-  static const IconData text_underline_24_light = IconData(0xf3c6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_underline_24_light = IconData(0xf3c7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_underline_24_regular
-  static const IconData text_underline_24_regular = IconData(0xf3c7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_underline_24_regular = IconData(0xf3c8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_underline_32_light
-  static const IconData text_underline_32_light = IconData(0xf3c8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_underline_32_light = IconData(0xf3c9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// text_underline_32_regular
-  static const IconData text_underline_32_regular = IconData(0xf3c9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData text_underline_32_regular = IconData(0xf3ca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_alarm_16_light
-  static const IconData time_alarm_16_light = IconData(0xf3ca, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_alarm_16_light = IconData(0xf3cb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_alarm_16_regular
-  static const IconData time_alarm_16_regular = IconData(0xf3cb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_alarm_16_regular = IconData(0xf3cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_alarm_24_light
-  static const IconData time_alarm_24_light = IconData(0xf3cc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_alarm_24_light = IconData(0xf3cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_alarm_24_regular
-  static const IconData time_alarm_24_regular = IconData(0xf3cd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_alarm_24_regular = IconData(0xf3ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_alarm_32_light
-  static const IconData time_alarm_32_light = IconData(0xf3ce, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_alarm_32_light = IconData(0xf3cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_alarm_32_regular
-  static const IconData time_alarm_32_regular = IconData(0xf3cf, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_alarm_32_regular = IconData(0xf3d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_16_light
-  static const IconData time_calendar_16_light = IconData(0xf3d0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_16_light = IconData(0xf3d1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_16_regular
-  static const IconData time_calendar_16_regular = IconData(0xf3d1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_16_regular = IconData(0xf3d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_24_light
-  static const IconData time_calendar_24_light = IconData(0xf3d2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_24_light = IconData(0xf3d3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_24_regular
-  static const IconData time_calendar_24_regular = IconData(0xf3d3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_24_regular = IconData(0xf3d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_32_light
-  static const IconData time_calendar_32_light = IconData(0xf3d4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_32_light = IconData(0xf3d5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_32_regular
-  static const IconData time_calendar_32_regular = IconData(0xf3d5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_32_regular = IconData(0xf3d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_add_16_light
-  static const IconData time_calendar_add_16_light = IconData(0xf3d6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_add_16_light = IconData(0xf3d7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_add_16_regular
-  static const IconData time_calendar_add_16_regular = IconData(0xf3d7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_add_16_regular = IconData(0xf3d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_add_24_light
-  static const IconData time_calendar_add_24_light = IconData(0xf3d8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_add_24_light = IconData(0xf3d9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_add_24_regular
-  static const IconData time_calendar_add_24_regular = IconData(0xf3d9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_add_24_regular = IconData(0xf3da, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_add_32_light
-  static const IconData time_calendar_add_32_light = IconData(0xf3da, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_add_32_light = IconData(0xf3db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_add_32_regular
-  static const IconData time_calendar_add_32_regular = IconData(0xf3db, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_add_32_regular = IconData(0xf3dc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_alternative_16_light
-  static const IconData time_calendar_alternative_16_light = IconData(0xf3dc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_alternative_16_light = IconData(0xf3dd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_alternative_16_regular
-  static const IconData time_calendar_alternative_16_regular = IconData(0xf3dd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_alternative_16_regular = IconData(0xf3de, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_alternative_24_light
-  static const IconData time_calendar_alternative_24_light = IconData(0xf3de, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_alternative_24_light = IconData(0xf3df, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_alternative_24_regular
-  static const IconData time_calendar_alternative_24_regular = IconData(0xf3df, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_alternative_24_regular = IconData(0xf3e0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_alternative_32_light
-  static const IconData time_calendar_alternative_32_light = IconData(0xf3e0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_alternative_32_light = IconData(0xf3e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_alternative_32_regular
-  static const IconData time_calendar_alternative_32_regular = IconData(0xf3e1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_alternative_32_regular = IconData(0xf3e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_date_16_light
-  static const IconData time_calendar_date_16_light = IconData(0xf3e2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_date_16_light = IconData(0xf3e3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_date_16_regular
-  static const IconData time_calendar_date_16_regular = IconData(0xf3e3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_date_16_regular = IconData(0xf3e4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_date_24_light
-  static const IconData time_calendar_date_24_light = IconData(0xf3e4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_date_24_light = IconData(0xf3e5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_date_24_regular
-  static const IconData time_calendar_date_24_regular = IconData(0xf3e5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_date_24_regular = IconData(0xf3e6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_date_32_light
-  static const IconData time_calendar_date_32_light = IconData(0xf3e6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_date_32_light = IconData(0xf3e7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_date_32_regular
-  static const IconData time_calendar_date_32_regular = IconData(0xf3e7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_date_32_regular = IconData(0xf3e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_remove_16_light
-  static const IconData time_calendar_remove_16_light = IconData(0xf3e8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_remove_16_light = IconData(0xf3e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_remove_16_regular
-  static const IconData time_calendar_remove_16_regular = IconData(0xf3e9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_remove_16_regular = IconData(0xf3ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_remove_24_light
-  static const IconData time_calendar_remove_24_light = IconData(0xf3ea, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_remove_24_light = IconData(0xf3eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_remove_24_regular
-  static const IconData time_calendar_remove_24_regular = IconData(0xf3eb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_remove_24_regular = IconData(0xf3ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_remove_32_light
-  static const IconData time_calendar_remove_32_light = IconData(0xf3ec, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_remove_32_light = IconData(0xf3ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_remove_32_regular
-  static const IconData time_calendar_remove_32_regular = IconData(0xf3ed, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_remove_32_regular = IconData(0xf3ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_success_16_light
-  static const IconData time_calendar_success_16_light = IconData(0xf3ee, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_success_16_light = IconData(0xf3ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_success_16_regular
-  static const IconData time_calendar_success_16_regular = IconData(0xf3ef, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_success_16_regular = IconData(0xf3f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_success_24_light
-  static const IconData time_calendar_success_24_light = IconData(0xf3f0, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_success_24_light = IconData(0xf3f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_success_24_regular
-  static const IconData time_calendar_success_24_regular = IconData(0xf3f1, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_success_24_regular = IconData(0xf3f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_success_32_light
-  static const IconData time_calendar_success_32_light = IconData(0xf3f2, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_success_32_light = IconData(0xf3f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_calendar_success_32_regular
-  static const IconData time_calendar_success_32_regular = IconData(0xf3f3, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_calendar_success_32_regular = IconData(0xf3f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_clock_16_light
-  static const IconData time_clock_16_light = IconData(0xf3f4, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_clock_16_light = IconData(0xf3f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_clock_16_regular
-  static const IconData time_clock_16_regular = IconData(0xf3f5, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_clock_16_regular = IconData(0xf3f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_clock_24_light
-  static const IconData time_clock_24_light = IconData(0xf3f6, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_clock_24_light = IconData(0xf3f7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_clock_24_regular
-  static const IconData time_clock_24_regular = IconData(0xf3f7, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_clock_24_regular = IconData(0xf3f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_clock_32_light
-  static const IconData time_clock_32_light = IconData(0xf3f8, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_clock_32_light = IconData(0xf3f9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_clock_32_regular
-  static const IconData time_clock_32_regular = IconData(0xf3f9, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_clock_32_regular = IconData(0xf3fa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_sandglass_16_light
-  static const IconData time_sandglass_16_light = IconData(0xf3fa, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_sandglass_16_light = IconData(0xf3fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_sandglass_16_regular
-  static const IconData time_sandglass_16_regular = IconData(0xf3fb, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_sandglass_16_regular = IconData(0xf3fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_sandglass_24_light
-  static const IconData time_sandglass_24_light = IconData(0xf3fc, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_sandglass_24_light = IconData(0xf3fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_sandglass_24_regular
-  static const IconData time_sandglass_24_regular = IconData(0xf3fd, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_sandglass_24_regular = IconData(0xf3fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_sandglass_32_light
-  static const IconData time_sandglass_32_light = IconData(0xf3fe, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_sandglass_32_light = IconData(0xf3ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_sandglass_32_regular
-  static const IconData time_sandglass_32_regular = IconData(0xf3ff, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_sandglass_32_regular = IconData(0xf400, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_16_light
-  static const IconData time_stopwatch_16_light = IconData(0xf400, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_16_light = IconData(0xf401, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_16_regular
-  static const IconData time_stopwatch_16_regular = IconData(0xf401, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_16_regular = IconData(0xf402, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_24_light
-  static const IconData time_stopwatch_24_light = IconData(0xf402, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_24_light = IconData(0xf403, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_24_regular
-  static const IconData time_stopwatch_24_regular = IconData(0xf403, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_24_regular = IconData(0xf404, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_32_light
-  static const IconData time_stopwatch_32_light = IconData(0xf404, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_32_light = IconData(0xf405, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_32_regular
-  static const IconData time_stopwatch_32_regular = IconData(0xf405, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_32_regular = IconData(0xf406, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_timer_16_light
-  static const IconData time_stopwatch_timer_16_light = IconData(0xf406, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_timer_16_light = IconData(0xf407, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_timer_16_regular
-  static const IconData time_stopwatch_timer_16_regular = IconData(0xf407, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_timer_16_regular = IconData(0xf408, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_timer_24_light
-  static const IconData time_stopwatch_timer_24_light = IconData(0xf408, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_timer_24_light = IconData(0xf409, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_timer_24_regular
-  static const IconData time_stopwatch_timer_24_regular = IconData(0xf409, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_timer_24_regular = IconData(0xf40a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_timer_32_light
-  static const IconData time_stopwatch_timer_32_light = IconData(0xf40a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_timer_32_light = IconData(0xf40b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_stopwatch_timer_32_regular
-  static const IconData time_stopwatch_timer_32_regular = IconData(0xf40b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_stopwatch_timer_32_regular = IconData(0xf40c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_time_16_light
-  static const IconData time_time_16_light = IconData(0xf40c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_time_16_light = IconData(0xf40d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_time_16_regular
-  static const IconData time_time_16_regular = IconData(0xf40d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_time_16_regular = IconData(0xf40e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_time_24_light
-  static const IconData time_time_24_light = IconData(0xf40e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_time_24_light = IconData(0xf40f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_time_24_regular
-  static const IconData time_time_24_regular = IconData(0xf40f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_time_24_regular = IconData(0xf410, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_time_32_light
-  static const IconData time_time_32_light = IconData(0xf410, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_time_32_light = IconData(0xf411, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_time_32_regular
-  static const IconData time_time_32_regular = IconData(0xf411, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_time_32_regular = IconData(0xf412, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_watch_16_light
-  static const IconData time_watch_16_light = IconData(0xf412, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_watch_16_light = IconData(0xf413, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_watch_16_regular
-  static const IconData time_watch_16_regular = IconData(0xf413, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_watch_16_regular = IconData(0xf414, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_watch_24_light
-  static const IconData time_watch_24_light = IconData(0xf414, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_watch_24_light = IconData(0xf415, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_watch_24_regular
-  static const IconData time_watch_24_regular = IconData(0xf415, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_watch_24_regular = IconData(0xf416, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_watch_32_light
-  static const IconData time_watch_32_light = IconData(0xf416, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_watch_32_light = IconData(0xf417, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// time_watch_32_regular
-  static const IconData time_watch_32_regular = IconData(0xf417, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData time_watch_32_regular = IconData(0xf418, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_16_light
-  static const IconData travel_airplane_16_light = IconData(0xf418, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_16_light = IconData(0xf419, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_16_regular
-  static const IconData travel_airplane_16_regular = IconData(0xf419, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_16_regular = IconData(0xf41a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_24_light
-  static const IconData travel_airplane_24_light = IconData(0xf41a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_24_light = IconData(0xf41b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_24_regular
-  static const IconData travel_airplane_24_regular = IconData(0xf41b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_24_regular = IconData(0xf41c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_32_light
-  static const IconData travel_airplane_32_light = IconData(0xf41c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_32_light = IconData(0xf41d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_32_regular
-  static const IconData travel_airplane_32_regular = IconData(0xf41d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_32_regular = IconData(0xf41e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_down_16_light
-  static const IconData travel_airplane_down_16_light = IconData(0xf41e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_down_16_light = IconData(0xf41f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_down_16_regular
-  static const IconData travel_airplane_down_16_regular = IconData(0xf41f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_down_16_regular = IconData(0xf420, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_down_24_light
-  static const IconData travel_airplane_down_24_light = IconData(0xf420, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_down_24_light = IconData(0xf421, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_down_24_regular
-  static const IconData travel_airplane_down_24_regular = IconData(0xf421, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_down_24_regular = IconData(0xf422, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_down_32_light
-  static const IconData travel_airplane_down_32_light = IconData(0xf422, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_down_32_light = IconData(0xf423, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_down_32_regular
-  static const IconData travel_airplane_down_32_regular = IconData(0xf423, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_down_32_regular = IconData(0xf424, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_up_16_light
-  static const IconData travel_airplane_up_16_light = IconData(0xf424, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_up_16_light = IconData(0xf425, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_up_16_regular
-  static const IconData travel_airplane_up_16_regular = IconData(0xf425, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_up_16_regular = IconData(0xf426, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_up_24_light
-  static const IconData travel_airplane_up_24_light = IconData(0xf426, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_up_24_light = IconData(0xf427, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_up_24_regular
-  static const IconData travel_airplane_up_24_regular = IconData(0xf427, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_up_24_regular = IconData(0xf428, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_up_32_light
-  static const IconData travel_airplane_up_32_light = IconData(0xf428, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_up_32_light = IconData(0xf429, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_airplane_up_32_regular
-  static const IconData travel_airplane_up_32_regular = IconData(0xf429, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_airplane_up_32_regular = IconData(0xf42a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_beach_chair_16_light
-  static const IconData travel_beach_chair_16_light = IconData(0xf42a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_beach_chair_16_light = IconData(0xf42b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_beach_chair_16_regular
-  static const IconData travel_beach_chair_16_regular = IconData(0xf42b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_beach_chair_16_regular = IconData(0xf42c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_beach_chair_24_light
-  static const IconData travel_beach_chair_24_light = IconData(0xf42c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_beach_chair_24_light = IconData(0xf42d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_beach_chair_24_regular
-  static const IconData travel_beach_chair_24_regular = IconData(0xf42d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_beach_chair_24_regular = IconData(0xf42e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_beach_chair_32_light
-  static const IconData travel_beach_chair_32_light = IconData(0xf42e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_beach_chair_32_light = IconData(0xf42f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_beach_chair_32_regular
-  static const IconData travel_beach_chair_32_regular = IconData(0xf42f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_beach_chair_32_regular = IconData(0xf430, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bed_16_light
-  static const IconData travel_bed_16_light = IconData(0xf430, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bed_16_light = IconData(0xf431, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bed_16_regular
-  static const IconData travel_bed_16_regular = IconData(0xf431, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bed_16_regular = IconData(0xf432, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bed_24_light
-  static const IconData travel_bed_24_light = IconData(0xf432, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bed_24_light = IconData(0xf433, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bed_24_regular
-  static const IconData travel_bed_24_regular = IconData(0xf433, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bed_24_regular = IconData(0xf434, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bed_32_light
-  static const IconData travel_bed_32_light = IconData(0xf434, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bed_32_light = IconData(0xf435, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bed_32_regular
-  static const IconData travel_bed_32_regular = IconData(0xf435, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bed_32_regular = IconData(0xf436, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bill_16_light
-  static const IconData travel_bill_16_light = IconData(0xf436, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bill_16_light = IconData(0xf437, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bill_16_regular
-  static const IconData travel_bill_16_regular = IconData(0xf437, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bill_16_regular = IconData(0xf438, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bill_24_light
-  static const IconData travel_bill_24_light = IconData(0xf438, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bill_24_light = IconData(0xf439, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bill_24_regular
-  static const IconData travel_bill_24_regular = IconData(0xf439, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bill_24_regular = IconData(0xf43a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bill_32_light
-  static const IconData travel_bill_32_light = IconData(0xf43a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bill_32_light = IconData(0xf43b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bill_32_regular
-  static const IconData travel_bill_32_regular = IconData(0xf43b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bill_32_regular = IconData(0xf43c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bus_16_light
-  static const IconData travel_bus_16_light = IconData(0xf43c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bus_16_light = IconData(0xf43d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bus_16_regular
-  static const IconData travel_bus_16_regular = IconData(0xf43d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bus_16_regular = IconData(0xf43e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bus_24_light
-  static const IconData travel_bus_24_light = IconData(0xf43e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bus_24_light = IconData(0xf43f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bus_24_regular
-  static const IconData travel_bus_24_regular = IconData(0xf43f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bus_24_regular = IconData(0xf440, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bus_32_light
-  static const IconData travel_bus_32_light = IconData(0xf440, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bus_32_light = IconData(0xf441, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_bus_32_regular
-  static const IconData travel_bus_32_regular = IconData(0xf441, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_bus_32_regular = IconData(0xf442, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_desk_bell_16_light
-  static const IconData travel_desk_bell_16_light = IconData(0xf442, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_desk_bell_16_light = IconData(0xf443, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_desk_bell_16_regular
-  static const IconData travel_desk_bell_16_regular = IconData(0xf443, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_desk_bell_16_regular = IconData(0xf444, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_desk_bell_24_light
-  static const IconData travel_desk_bell_24_light = IconData(0xf444, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_desk_bell_24_light = IconData(0xf445, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_desk_bell_24_regular
-  static const IconData travel_desk_bell_24_regular = IconData(0xf445, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_desk_bell_24_regular = IconData(0xf446, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_desk_bell_32_light
-  static const IconData travel_desk_bell_32_light = IconData(0xf446, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_desk_bell_32_light = IconData(0xf447, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_desk_bell_32_regular
-  static const IconData travel_desk_bell_32_regular = IconData(0xf447, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_desk_bell_32_regular = IconData(0xf448, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_hotel_16_light
-  static const IconData travel_hotel_16_light = IconData(0xf448, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_hotel_16_light = IconData(0xf449, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_hotel_16_regular
-  static const IconData travel_hotel_16_regular = IconData(0xf449, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_hotel_16_regular = IconData(0xf44a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_hotel_24_light
-  static const IconData travel_hotel_24_light = IconData(0xf44a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_hotel_24_light = IconData(0xf44b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_hotel_24_regular
-  static const IconData travel_hotel_24_regular = IconData(0xf44b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_hotel_24_regular = IconData(0xf44c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_hotel_32_light
-  static const IconData travel_hotel_32_light = IconData(0xf44c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_hotel_32_light = IconData(0xf44d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_hotel_32_regular
-  static const IconData travel_hotel_32_regular = IconData(0xf44d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_hotel_32_regular = IconData(0xf44e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_luggage_16_light
-  static const IconData travel_luggage_16_light = IconData(0xf44e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_luggage_16_light = IconData(0xf44f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_luggage_16_regular
-  static const IconData travel_luggage_16_regular = IconData(0xf44f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_luggage_16_regular = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_luggage_24_light
-  static const IconData travel_luggage_24_light = IconData(0xf450, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_luggage_24_light = IconData(0xf451, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_luggage_24_regular
-  static const IconData travel_luggage_24_regular = IconData(0xf451, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_luggage_24_regular = IconData(0xf452, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_luggage_32_light
-  static const IconData travel_luggage_32_light = IconData(0xf452, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_luggage_32_light = IconData(0xf453, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_luggage_32_regular
-  static const IconData travel_luggage_32_regular = IconData(0xf453, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_luggage_32_regular = IconData(0xf454, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_meal_16_light
-  static const IconData travel_meal_16_light = IconData(0xf454, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_meal_16_light = IconData(0xf455, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_meal_16_regular
-  static const IconData travel_meal_16_regular = IconData(0xf455, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_meal_16_regular = IconData(0xf456, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_meal_24_light
-  static const IconData travel_meal_24_light = IconData(0xf456, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_meal_24_light = IconData(0xf457, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_meal_24_regular
-  static const IconData travel_meal_24_regular = IconData(0xf457, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_meal_24_regular = IconData(0xf458, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_meal_32_light
-  static const IconData travel_meal_32_light = IconData(0xf458, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_meal_32_light = IconData(0xf459, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_meal_32_regular
-  static const IconData travel_meal_32_regular = IconData(0xf459, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_meal_32_regular = IconData(0xf45a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_no_suitcase_16_light
-  static const IconData travel_no_suitcase_16_light = IconData(0xf45a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_no_suitcase_16_light = IconData(0xf45b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_no_suitcase_16_regular
-  static const IconData travel_no_suitcase_16_regular = IconData(0xf45b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_no_suitcase_16_regular = IconData(0xf45c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_no_suitcase_24_light
-  static const IconData travel_no_suitcase_24_light = IconData(0xf45c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_no_suitcase_24_light = IconData(0xf45d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_no_suitcase_24_regular
-  static const IconData travel_no_suitcase_24_regular = IconData(0xf45d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_no_suitcase_24_regular = IconData(0xf45e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_no_suitcase_32_light
-  static const IconData travel_no_suitcase_32_light = IconData(0xf45e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_no_suitcase_32_light = IconData(0xf45f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_no_suitcase_32_regular
-  static const IconData travel_no_suitcase_32_regular = IconData(0xf45f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_no_suitcase_32_regular = IconData(0xf460, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_passport_16_light
-  static const IconData travel_passport_16_light = IconData(0xf460, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_passport_16_light = IconData(0xf461, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_passport_16_regular
-  static const IconData travel_passport_16_regular = IconData(0xf461, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_passport_16_regular = IconData(0xf462, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_passport_24_light
-  static const IconData travel_passport_24_light = IconData(0xf462, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_passport_24_light = IconData(0xf463, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_passport_24_regular
-  static const IconData travel_passport_24_regular = IconData(0xf463, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_passport_24_regular = IconData(0xf464, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_passport_32_light
-  static const IconData travel_passport_32_light = IconData(0xf464, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_passport_32_light = IconData(0xf465, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_passport_32_regular
-  static const IconData travel_passport_32_regular = IconData(0xf465, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_passport_32_regular = IconData(0xf466, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_plug_16_light
-  static const IconData travel_plug_16_light = IconData(0xf466, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_plug_16_light = IconData(0xf467, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_plug_16_regular
-  static const IconData travel_plug_16_regular = IconData(0xf467, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_plug_16_regular = IconData(0xf468, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_plug_24_light
-  static const IconData travel_plug_24_light = IconData(0xf468, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_plug_24_light = IconData(0xf469, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_plug_24_regular
-  static const IconData travel_plug_24_regular = IconData(0xf469, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_plug_24_regular = IconData(0xf46a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_plug_32_light
-  static const IconData travel_plug_32_light = IconData(0xf46a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_plug_32_light = IconData(0xf46b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_plug_32_regular
-  static const IconData travel_plug_32_regular = IconData(0xf46b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_plug_32_regular = IconData(0xf46c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_rest_16_light
-  static const IconData travel_rest_16_light = IconData(0xf46c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_rest_16_light = IconData(0xf46d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_rest_16_regular
-  static const IconData travel_rest_16_regular = IconData(0xf46d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_rest_16_regular = IconData(0xf46e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_rest_24_light
-  static const IconData travel_rest_24_light = IconData(0xf46e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_rest_24_light = IconData(0xf46f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_rest_24_regular
-  static const IconData travel_rest_24_regular = IconData(0xf46f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_rest_24_regular = IconData(0xf470, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_rest_32_light
-  static const IconData travel_rest_32_light = IconData(0xf470, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_rest_32_light = IconData(0xf471, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_rest_32_regular
-  static const IconData travel_rest_32_regular = IconData(0xf471, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_rest_32_regular = IconData(0xf472, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_room_16_light
-  static const IconData travel_room_16_light = IconData(0xf472, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_room_16_light = IconData(0xf473, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_room_16_regular
-  static const IconData travel_room_16_regular = IconData(0xf473, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_room_16_regular = IconData(0xf474, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_room_24_light
-  static const IconData travel_room_24_light = IconData(0xf474, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_room_24_light = IconData(0xf475, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_room_24_regular
-  static const IconData travel_room_24_regular = IconData(0xf475, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_room_24_regular = IconData(0xf476, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_room_32_light
-  static const IconData travel_room_32_light = IconData(0xf476, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_room_32_light = IconData(0xf477, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_room_32_regular
-  static const IconData travel_room_32_regular = IconData(0xf477, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_room_32_regular = IconData(0xf478, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_seats_16_light
-  static const IconData travel_seats_16_light = IconData(0xf478, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_seats_16_light = IconData(0xf479, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_seats_16_regular
-  static const IconData travel_seats_16_regular = IconData(0xf479, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_seats_16_regular = IconData(0xf47a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_seats_24_light
-  static const IconData travel_seats_24_light = IconData(0xf47a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_seats_24_light = IconData(0xf47b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_seats_24_regular
-  static const IconData travel_seats_24_regular = IconData(0xf47b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_seats_24_regular = IconData(0xf47c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_seats_32_light
-  static const IconData travel_seats_32_light = IconData(0xf47c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_seats_32_light = IconData(0xf47d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_seats_32_regular
-  static const IconData travel_seats_32_regular = IconData(0xf47d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_seats_32_regular = IconData(0xf47e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_suitcase_16_light
-  static const IconData travel_suitcase_16_light = IconData(0xf47e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_suitcase_16_light = IconData(0xf47f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_suitcase_16_regular
-  static const IconData travel_suitcase_16_regular = IconData(0xf47f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_suitcase_16_regular = IconData(0xf480, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_suitcase_24_light
-  static const IconData travel_suitcase_24_light = IconData(0xf480, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_suitcase_24_light = IconData(0xf481, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_suitcase_24_regular
-  static const IconData travel_suitcase_24_regular = IconData(0xf481, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_suitcase_24_regular = IconData(0xf482, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_suitcase_32_light
-  static const IconData travel_suitcase_32_light = IconData(0xf482, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_suitcase_32_light = IconData(0xf483, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_suitcase_32_regular
-  static const IconData travel_suitcase_32_regular = IconData(0xf483, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_suitcase_32_regular = IconData(0xf484, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_swimming_pool_16_light
-  static const IconData travel_swimming_pool_16_light = IconData(0xf484, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_swimming_pool_16_light = IconData(0xf485, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_swimming_pool_16_regular
-  static const IconData travel_swimming_pool_16_regular = IconData(0xf485, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_swimming_pool_16_regular = IconData(0xf486, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_swimming_pool_24_light
-  static const IconData travel_swimming_pool_24_light = IconData(0xf486, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_swimming_pool_24_light = IconData(0xf487, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_swimming_pool_24_regular
-  static const IconData travel_swimming_pool_24_regular = IconData(0xf487, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_swimming_pool_24_regular = IconData(0xf488, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_swimming_pool_32_light
-  static const IconData travel_swimming_pool_32_light = IconData(0xf488, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_swimming_pool_32_light = IconData(0xf489, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_swimming_pool_32_regular
-  static const IconData travel_swimming_pool_32_regular = IconData(0xf489, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_swimming_pool_32_regular = IconData(0xf48a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_train_16_light
-  static const IconData travel_train_16_light = IconData(0xf48a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_train_16_light = IconData(0xf48b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_train_16_regular
-  static const IconData travel_train_16_regular = IconData(0xf48b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_train_16_regular = IconData(0xf48c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_train_24_light
-  static const IconData travel_train_24_light = IconData(0xf48c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_train_24_light = IconData(0xf48d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_train_24_regular
-  static const IconData travel_train_24_regular = IconData(0xf48d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_train_24_regular = IconData(0xf48e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_train_32_light
-  static const IconData travel_train_32_light = IconData(0xf48e, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_train_32_light = IconData(0xf48f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_train_32_regular
-  static const IconData travel_train_32_regular = IconData(0xf48f, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_train_32_regular = IconData(0xf490, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_wi_fi_16_light
-  static const IconData travel_wi_fi_16_light = IconData(0xf490, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_wi_fi_16_light = IconData(0xf491, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_wi_fi_16_regular
-  static const IconData travel_wi_fi_16_regular = IconData(0xf491, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_wi_fi_16_regular = IconData(0xf492, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_wi_fi_24_light
-  static const IconData travel_wi_fi_24_light = IconData(0xf492, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_wi_fi_24_light = IconData(0xf493, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_wi_fi_24_regular
-  static const IconData travel_wi_fi_24_regular = IconData(0xf493, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_wi_fi_24_regular = IconData(0xf494, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_wi_fi_32_light
-  static const IconData travel_wi_fi_32_light = IconData(0xf494, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_wi_fi_32_light = IconData(0xf495, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_wi_fi_32_regular
-  static const IconData travel_wi_fi_32_regular = IconData(0xf495, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_wi_fi_32_regular = IconData(0xf496, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_yacht_16_light
-  static const IconData travel_yacht_16_light = IconData(0xf496, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_yacht_16_light = IconData(0xf497, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_yacht_16_regular
-  static const IconData travel_yacht_16_regular = IconData(0xf497, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_yacht_16_regular = IconData(0xf498, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_yacht_24_light
-  static const IconData travel_yacht_24_light = IconData(0xf498, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_yacht_24_light = IconData(0xf499, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_yacht_24_regular
-  static const IconData travel_yacht_24_regular = IconData(0xf499, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_yacht_24_regular = IconData(0xf49a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_yacht_32_light
-  static const IconData travel_yacht_32_light = IconData(0xf49a, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_yacht_32_light = IconData(0xf49b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   /// travel_yacht_32_regular
-  static const IconData travel_yacht_32_regular = IconData(0xf49b, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData travel_yacht_32_regular = IconData(0xf49c, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
 }
 

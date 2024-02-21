@@ -2360,6 +2360,7 @@ final iconsMap = <String, IconData>{
   "sport_zed_run_24_regular": MoonIcons.sport_zed_run_24_regular,
   "sport_zed_run_32_light": MoonIcons.sport_zed_run_32_light,
   "sport_zed_run_32_regular": MoonIcons.sport_zed_run_32_regular,
+  "test__": MoonIcons.test__,
   "text_anchor_16_light": MoonIcons.text_anchor_16_light,
   "text_anchor_16_regular": MoonIcons.text_anchor_16_regular,
   "text_anchor_24_light": MoonIcons.text_anchor_24_light,
