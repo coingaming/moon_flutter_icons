@@ -3,6 +3,11 @@ name: Create icon font
 # Used to allow moon-icons-base workflow to trigger this workflow and also manual triggering.
 on:
   workflow_dispatch:
+    inputs:
+      description:
+        default: '🤖 Figma Icons Update'
+        required: true
+        type: string
 
 # So only the latest run is executed. Used to avoid concurrency issues as Figma webhook can be spammy at times.
 concurrency:
