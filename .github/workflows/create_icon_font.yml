@@ -35,5 +35,5 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: 'feat: 🤖 ${{ github.event.client_payload.description }}'
-          title: 'feat: Update icon font'
+          title: 'feat: 🤖 ${{ github.event.client_payload.description }}'
           branch: update-icon-font
