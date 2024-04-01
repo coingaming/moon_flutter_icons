@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.4.0...v0.5.0) (2024-04-01)
+
+
+### Features
+
+* Flutter version bump and fix vertical alignments ([2139f1a](https://github.com/coingaming/moon_flutter_icons/commit/2139f1adb39ed71c8261ab5f5ae6dc1a465c0e64))
+
 ## [0.4.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.3.0...v0.4.0) (2023-12-20)
 
 
