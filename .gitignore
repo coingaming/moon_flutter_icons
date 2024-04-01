@@ -35,3 +35,6 @@ importer/node_modules
 importer/npm-debug.log
 importer/svgs
 importer/fonts
+
+.fvm
+.vscode

@@ -10,7 +10,6 @@
   },
   "svgicons2svgfont": {
     "fontHeight": 1024,
-    "normalize": true,
-    "ascent": 980
+    "normalize": true
   }
 }
