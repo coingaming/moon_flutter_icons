@@ -28,6 +28,3 @@ View the demo app in the [example](https://github.com/coingaming/moon_flutter_ic
 
 The number in the icon name is an indication of the intended size of the icon where it looks the best.
 
-### Why are the icons too low on mobile web browsers?
-
-If that is the case then you need to use the canvaskit renderer when building for web. HTML renderer has issues with font rendering (some have been open for years on Flutter GitHub issues). 
