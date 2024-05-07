@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.5.0...v1.0.0) (2024-05-07)
+
+
+### ⚠ BREAKING CHANGES
+
+* [MDS-1111] Lock old v1 icon-set to 1.0.0
+* [MDS-1111] Lock old v1 icon-set to 1.0.0 ([#44](https://github.com/coingaming/moon_flutter_icons/issues/44))
+
+### Features
+
+* [MDS-1111] Lock old v1 icon-set to 1.0.0 ([#44](https://github.com/coingaming/moon_flutter_icons/issues/44)) ([7668000](https://github.com/coingaming/moon_flutter_icons/commit/7668000f3ebed1b8bb2fe0b29e1210456b13f20d))
+
+
+### Miscellaneous Chores
+
+* [MDS-1111] Lock old v1 icon-set to 1.0.0 ([1e84c4b](https://github.com/coingaming/moon_flutter_icons/commit/1e84c4b2f9522aaced78e93fe9ed59ce66a7fdac))
+
 ## [0.5.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.4.0...v0.5.0) (2024-04-01)
 
 
