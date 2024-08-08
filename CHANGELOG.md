@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.1...v1.0.2) (2024-08-08)
+
+
+### Bug Fixes
+
+* rename COPYING to LICENSE ([0befa5f](https://github.com/coingaming/moon_flutter_icons/commit/0befa5f56409230576060c229b33fd454ed749cd))
+
 ## [1.0.1](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.0...v1.0.1) (2024-08-08)
 
 
