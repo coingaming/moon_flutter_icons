@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.0...v1.0.1) (2024-08-08)
+
+
+### Bug Fixes
+
+* Update LICENSE ([#47](https://github.com/coingaming/moon_flutter_icons/issues/47)) ([c3f6587](https://github.com/coingaming/moon_flutter_icons/commit/c3f65878142404e16e497a43a4d39b996630a8da))
+
 ## [1.0.0](https://github.com/coingaming/moon_flutter_icons/compare/v0.5.0...v1.0.0) (2024-05-07)
 
 
