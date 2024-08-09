@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.2...v1.0.3) (2024-08-09)
+
+
+### Bug Fixes
+
+* revert back to MIT license retry ([6904d79](https://github.com/coingaming/moon_flutter_icons/commit/6904d797a1f4b0343bf5b259e7015557b37e7838))
+
 ## [1.0.2](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.1...v1.0.2) (2024-08-08)
 
 
