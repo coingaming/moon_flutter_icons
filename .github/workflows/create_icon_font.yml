@@ -29,6 +29,8 @@ jobs:
           node-version: 21
   
       - name: Convert icons to font
+        env:
+          MOON_GH_TOKEN: ${{ secrets.MDS_AUTOMATION_PAT }}
         run: npm run create-icon-font
         working-directory: ./importer
 
