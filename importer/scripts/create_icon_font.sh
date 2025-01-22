@@ -10,10 +10,13 @@ set -o nounset
 set -o pipefail
 
 # Fetch icons from moon-icons-base repository
-git clone --depth 1 https://${MOON_GH_TOKEN}@github.com/coingaming/moon-icons-base.git temp_repo
-mkdir -p svgs
-cp -r temp_repo/icons/* ./svgs/
-rm -rf temp_repo
+#git clone --depth 1 https://${MOON_GH_TOKEN}@github.com/coingaming/moon-icons-base.git temp_repo
+#mkdir -p svgs
+#cp -r temp_repo/icons/* ./svgs/
+#rm -rf temp_repo
+
+# This command requires a FIGMA_TOKEN to be set in env.
+npx figma-export use-config
 
 # Rename icons to the format appropriate for Flutter.
 for file in svgs/*.svg; do
