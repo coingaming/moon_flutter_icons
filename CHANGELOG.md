@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.3...v1.1.0) (2025-01-23)
+
+
+### Features
+
+* 🤖 Figma Icons Update ([#54](https://github.com/coingaming/moon_flutter_icons/issues/54)) ([84ca4e5](https://github.com/coingaming/moon_flutter_icons/commit/84ca4e5486351a35b27a286db1eccdfa41a5d430))
+
 ## [1.0.3](https://github.com/coingaming/moon_flutter_icons/compare/v1.0.2...v1.0.3) (2024-08-09)
 
 
